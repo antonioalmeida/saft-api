@@ -1,11 +1,14 @@
 import jsonServer from 'json-server'
 import read from 'read-file'
+import cors from 'cors'
 
 const server = jsonServer.create()
 const router = jsonServer.router('db.json')
-const middlewares = jsonServer.defaults()
+const middlewares = jsonServer.defaults({noCors: false})
 
 const db = router.db.__wrapped__;
+
+server.use(cors());
 
 //Custom route test
 server.get('/echo', (req, res) => {
@@ -20,7 +23,7 @@ server.get('/sales/average-sales-value', (req, res) => {
 	const averageSalesValue = TotalCredit/NumberOfEntries;
 
 	res.jsonp({
-		value: averageSalesValue,
+		averageSalesValue: averageSalesValue,
 	});
 });
 
