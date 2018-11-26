@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="Windows-1252" standalone="no"?>
-<AuditFile xmlns="urn:OECD:StandardAuditFile-Tax:PT_1.04_01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:OECD:StandardAuditFile-Tax:PT_1.04_01 http://info.portaldasfinancas.gov.pt/apps/saft-pt04/SAFTPT1.04_01.xsd" xmlns:doc="urn:schemas-basda-org:schema-extensions:documentation">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<AuditFile xmlns="urn:OECD:StandardAuditFile-Tax:PT_1.04_01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:OECD:StandardAuditFile-Tax:PT_1.04_01 http://info.portaldasfinancas.gov.pt/apps/saft-pt04/SAFTPT1.04_01.xsd">
 	<Header>
 		<AuditFileVersion>1.04_01</AuditFileVersion>
 		<CompanyID>501413197</CompanyID>
@@ -61,7 +61,7 @@
 			</Account>
 			<Account>
 				<AccountID>12</AccountID>
-				<AccountDescription>Depósitos à Ordem</AccountDescription>
+				<AccountDescription>Depï¿½sitos ï¿½ Ordem</AccountDescription>
 				<OpeningDebitBalance>8592.92</OpeningDebitBalance>
 				<OpeningCreditBalance>0.00</OpeningCreditBalance>
 				<ClosingDebitBalance>8592.92</ClosingDebitBalance>
@@ -121,7 +121,7 @@
 			</Account>
 			<Account>
 				<AccountID>21111003</AccountID>
-				<AccountDescription>José Maria Fernandes &amp; Filhos, Lda.</AccountDescription>
+				<AccountDescription>Josï¿½ Maria Fernandes &amp; Filhos, Lda.</AccountDescription>
 				<OpeningDebitBalance>0.00</OpeningDebitBalance>
 				<OpeningCreditBalance>0.00</OpeningCreditBalance>
 				<ClosingDebitBalance>5149.58</ClosingDebitBalance>
@@ -132,7 +132,7 @@
 			</Account>
 			<Account>
 				<AccountID>21113001</AccountID>
-				<AccountDescription>Inforshow, Informática Comunicação</AccountDescription>
+				<AccountDescription>Inforshow, Informï¿½tica Comunicaï¿½ï¿½o</AccountDescription>
 				<OpeningDebitBalance>0.00</OpeningDebitBalance>
 				<OpeningCreditBalance>0.00</OpeningCreditBalance>
 				<ClosingDebitBalance>1781.70</ClosingDebitBalance>
@@ -154,7 +154,7 @@
 			</Account>
 			<Account>
 				<AccountID>21113006</AccountID>
-				<AccountDescription>Maria José da Silva</AccountDescription>
+				<AccountDescription>Maria Josï¿½ da Silva</AccountDescription>
 				<OpeningDebitBalance>0.00</OpeningDebitBalance>
 				<OpeningCreditBalance>0.00</OpeningCreditBalance>
 				<ClosingDebitBalance>3412.86</ClosingDebitBalance>
@@ -197,7 +197,7 @@
 			</Account>
 			<Account>
 				<AccountID>212</AccountID>
-				<AccountDescription>Clientes - Títulos a Receber</AccountDescription>
+				<AccountDescription>Clientes - Tï¿½tulos a Receber</AccountDescription>
 				<OpeningDebitBalance>1176.37</OpeningDebitBalance>
 				<OpeningCreditBalance>0.00</OpeningCreditBalance>
 				<ClosingDebitBalance>1176.37</ClosingDebitBalance>
@@ -207,7 +207,7 @@
 			</Account>
 			<Account>
 				<AccountID>2121</AccountID>
-				<AccountDescription>Clientes - Tít. - Mercado Nacional</AccountDescription>
+				<AccountDescription>Clientes - Tï¿½t. - Mercado Nacional</AccountDescription>
 				<OpeningDebitBalance>1176.37</OpeningDebitBalance>
 				<OpeningCreditBalance>0.00</OpeningCreditBalance>
 				<ClosingDebitBalance>1176.37</ClosingDebitBalance>
@@ -259,7 +259,7 @@
 			</Account>
 			<Account>
 				<AccountID>21911003</AccountID>
-				<AccountDescription>José Maria Fernandes &amp; Filhos, Lda.</AccountDescription>
+				<AccountDescription>Josï¿½ Maria Fernandes &amp; Filhos, Lda.</AccountDescription>
 				<OpeningDebitBalance>0.00</OpeningDebitBalance>
 				<OpeningCreditBalance>35.60</OpeningCreditBalance>
 				<ClosingDebitBalance>0.00</ClosingDebitBalance>
@@ -343,7 +343,7 @@
 			</Account>
 			<Account>
 				<AccountID>24</AccountID>
-				<AccountDescription>Estados e Outros Entes Públicos</AccountDescription>
+				<AccountDescription>Estados e Outros Entes Pï¿½blicos</AccountDescription>
 				<OpeningDebitBalance>1182.30</OpeningDebitBalance>
 				<OpeningCreditBalance>2870.82</OpeningCreditBalance>
 				<ClosingDebitBalance>10109.77</ClosingDebitBalance>
@@ -362,7 +362,7 @@
 			</Account>
 			<Account>
 				<AccountID>2432</AccountID>
-				<AccountDescription>Iva - Dedutível</AccountDescription>
+				<AccountDescription>Iva - Dedutï¿½vel</AccountDescription>
 				<OpeningDebitBalance>1182.30</OpeningDebitBalance>
 				<OpeningCreditBalance>0.00</OpeningCreditBalance>
 				<ClosingDebitBalance>6525.83</ClosingDebitBalance>
@@ -372,7 +372,7 @@
 			</Account>
 			<Account>
 				<AccountID>24321</AccountID>
-				<AccountDescription>Existências</AccountDescription>
+				<AccountDescription>Existï¿½ncias</AccountDescription>
 				<OpeningDebitBalance>1182.30</OpeningDebitBalance>
 				<OpeningCreditBalance>0.00</OpeningCreditBalance>
 				<ClosingDebitBalance>6525.83</ClosingDebitBalance>
@@ -382,7 +382,7 @@
 			</Account>
 			<Account>
 				<AccountID>243211</AccountID>
-				<AccountDescription>Existências Continente</AccountDescription>
+				<AccountDescription>Existï¿½ncias Continente</AccountDescription>
 				<OpeningDebitBalance>1182.30</OpeningDebitBalance>
 				<OpeningCreditBalance>0.00</OpeningCreditBalance>
 				<ClosingDebitBalance>6525.83</ClosingDebitBalance>
@@ -422,7 +422,7 @@
 			</Account>
 			<Account>
 				<AccountID>24321132011</AccountID>
-				<AccountDescription>Ex. Tx. Nm..- MN-TT/Dedutível</AccountDescription>
+				<AccountDescription>Ex. Tx. Nm..- MN-TT/Dedutï¿½vel</AccountDescription>
 				<OpeningDebitBalance>0.00</OpeningDebitBalance>
 				<OpeningCreditBalance>0.00</OpeningCreditBalance>
 				<ClosingDebitBalance>727.39</ClosingDebitBalance>
@@ -453,7 +453,7 @@
 			</Account>
 			<Account>
 				<AccountID>24321132111</AccountID>
-				<AccountDescription>Ex. Tx. Nm..- MN-TT/Dedutível</AccountDescription>
+				<AccountDescription>Ex. Tx. Nm..- MN-TT/Dedutï¿½vel</AccountDescription>
 				<OpeningDebitBalance>1182.30</OpeningDebitBalance>
 				<OpeningCreditBalance>0.00</OpeningCreditBalance>
 				<ClosingDebitBalance>5798.44</ClosingDebitBalance>
@@ -556,7 +556,7 @@
 			</Account>
 			<Account>
 				<AccountID>243312</AccountID>
-				<AccountDescription>Iva Liq. - Prestações de Serviços</AccountDescription>
+				<AccountDescription>Iva Liq. - Prestaï¿½ï¿½es de Serviï¿½os</AccountDescription>
 				<OpeningDebitBalance>0.00</OpeningDebitBalance>
 				<OpeningCreditBalance>0.00</OpeningCreditBalance>
 				<ClosingDebitBalance>0.00</ClosingDebitBalance>
@@ -566,7 +566,7 @@
 			</Account>
 			<Account>
 				<AccountID>2433121</AccountID>
-				<AccountDescription>Iva Liq. - Prest. de Serviços-Continente</AccountDescription>
+				<AccountDescription>Iva Liq. - Prest. de Serviï¿½os-Continente</AccountDescription>
 				<OpeningDebitBalance>0.00</OpeningDebitBalance>
 				<OpeningCreditBalance>0.00</OpeningCreditBalance>
 				<ClosingDebitBalance>0.00</ClosingDebitBalance>
@@ -741,7 +741,7 @@
 			</Account>
 			<Account>
 				<AccountID>3161</AccountID>
-				<AccountDescription>Compras-Matérias Primas</AccountDescription>
+				<AccountDescription>Compras-Matï¿½rias Primas</AccountDescription>
 				<OpeningDebitBalance>0.00</OpeningDebitBalance>
 				<OpeningCreditBalance>0.00</OpeningCreditBalance>
 				<ClosingDebitBalance>3844.08</ClosingDebitBalance>
@@ -762,7 +762,7 @@
 			</Account>
 			<Account>
 				<AccountID>319</AccountID>
-				<AccountDescription>Imputação de Compras</AccountDescription>
+				<AccountDescription>Imputaï¿½ï¿½o de Compras</AccountDescription>
 				<OpeningDebitBalance>0.00</OpeningDebitBalance>
 				<OpeningCreditBalance>0.00</OpeningCreditBalance>
 				<ClosingDebitBalance>0.00</ClosingDebitBalance>
@@ -793,7 +793,7 @@
 			</Account>
 			<Account>
 				<AccountID>36</AccountID>
-				<AccountDescription>Matérias-Primas, Subs. e de Consumo</AccountDescription>
+				<AccountDescription>Matï¿½rias-Primas, Subs. e de Consumo</AccountDescription>
 				<OpeningDebitBalance>0.00</OpeningDebitBalance>
 				<OpeningCreditBalance>0.00</OpeningCreditBalance>
 				<ClosingDebitBalance>3844.08</ClosingDebitBalance>
@@ -802,7 +802,7 @@
 			</Account>
 			<Account>
 				<AccountID>361</AccountID>
-				<AccountDescription>Matérias-Primas</AccountDescription>
+				<AccountDescription>Matï¿½rias-Primas</AccountDescription>
 				<OpeningDebitBalance>0.00</OpeningDebitBalance>
 				<OpeningCreditBalance>0.00</OpeningCreditBalance>
 				<ClosingDebitBalance>3844.08</ClosingDebitBalance>
@@ -812,7 +812,7 @@
 			</Account>
 			<Account>
 				<AccountID>3612</AccountID>
-				<AccountDescription>Matérias-Primas - CEVC</AccountDescription>
+				<AccountDescription>Matï¿½rias-Primas - CEVC</AccountDescription>
 				<OpeningDebitBalance>0.00</OpeningDebitBalance>
 				<OpeningCreditBalance>0.00</OpeningCreditBalance>
 				<ClosingDebitBalance>3844.08</ClosingDebitBalance>
@@ -842,7 +842,7 @@
 			</Account>
 			<Account>
 				<AccountID>6161</AccountID>
-				<AccountDescription>Matérias Primas</AccountDescription>
+				<AccountDescription>Matï¿½rias Primas</AccountDescription>
 				<OpeningDebitBalance>0.00</OpeningDebitBalance>
 				<OpeningCreditBalance>0.00</OpeningCreditBalance>
 				<ClosingDebitBalance>1259.04</ClosingDebitBalance>
@@ -852,7 +852,7 @@
 			</Account>
 			<Account>
 				<AccountID>61611</AccountID>
-				<AccountDescription>Matérias Primas - CMPVC</AccountDescription>
+				<AccountDescription>Matï¿½rias Primas - CMPVC</AccountDescription>
 				<OpeningDebitBalance>0.00</OpeningDebitBalance>
 				<OpeningCreditBalance>0.00</OpeningCreditBalance>
 				<ClosingDebitBalance>1259.04</ClosingDebitBalance>
@@ -863,7 +863,7 @@
 			</Account>
 			<Account>
 				<AccountID>62</AccountID>
-				<AccountDescription>Fornecimentos e Serviços Externos</AccountDescription>
+				<AccountDescription>Fornecimentos e Serviï¿½os Externos</AccountDescription>
 				<OpeningDebitBalance>0.00</OpeningDebitBalance>
 				<OpeningCreditBalance>0.00</OpeningCreditBalance>
 				<ClosingDebitBalance>560.00</ClosingDebitBalance>
@@ -872,7 +872,7 @@
 			</Account>
 			<Account>
 				<AccountID>622</AccountID>
-				<AccountDescription>Fornecimentos e Serviços</AccountDescription>
+				<AccountDescription>Fornecimentos e Serviï¿½os</AccountDescription>
 				<OpeningDebitBalance>0.00</OpeningDebitBalance>
 				<OpeningCreditBalance>0.00</OpeningCreditBalance>
 				<ClosingDebitBalance>560.00</ClosingDebitBalance>
@@ -882,7 +882,7 @@
 			</Account>
 			<Account>
 				<AccountID>62212</AccountID>
-				<AccountDescription>Combustíveis</AccountDescription>
+				<AccountDescription>Combustï¿½veis</AccountDescription>
 				<OpeningDebitBalance>0.00</OpeningDebitBalance>
 				<OpeningCreditBalance>0.00</OpeningCreditBalance>
 				<ClosingDebitBalance>560.00</ClosingDebitBalance>
@@ -892,7 +892,7 @@
 			</Account>
 			<Account>
 				<AccountID>622122</AccountID>
-				<AccountDescription>Combustíveis - Gasolina</AccountDescription>
+				<AccountDescription>Combustï¿½veis - Gasolina</AccountDescription>
 				<OpeningDebitBalance>0.00</OpeningDebitBalance>
 				<OpeningCreditBalance>0.00</OpeningCreditBalance>
 				<ClosingDebitBalance>560.00</ClosingDebitBalance>
@@ -954,7 +954,7 @@
 			</Account>
 			<Account>
 				<AccountID>72</AccountID>
-				<AccountDescription>Prestações de Serviços</AccountDescription>
+				<AccountDescription>Prestaï¿½ï¿½es de Serviï¿½os</AccountDescription>
 				<OpeningDebitBalance>0.00</OpeningDebitBalance>
 				<OpeningCreditBalance>0.00</OpeningCreditBalance>
 				<ClosingDebitBalance>0.00</ClosingDebitBalance>
@@ -963,7 +963,7 @@
 			</Account>
 			<Account>
 				<AccountID>721</AccountID>
-				<AccountDescription>Serviço A</AccountDescription>
+				<AccountDescription>Serviï¿½o A</AccountDescription>
 				<OpeningDebitBalance>0.00</OpeningDebitBalance>
 				<OpeningCreditBalance>0.00</OpeningCreditBalance>
 				<ClosingDebitBalance>0.00</ClosingDebitBalance>
@@ -973,7 +973,7 @@
 			</Account>
 			<Account>
 				<AccountID>7211</AccountID>
-				<AccountDescription>Serviço A - Mercado Nacional</AccountDescription>
+				<AccountDescription>Serviï¿½o A - Mercado Nacional</AccountDescription>
 				<OpeningDebitBalance>0.00</OpeningDebitBalance>
 				<OpeningCreditBalance>0.00</OpeningCreditBalance>
 				<ClosingDebitBalance>0.00</ClosingDebitBalance>
@@ -1003,7 +1003,7 @@
 			</Account>
 			<Account>
 				<AccountID>93</AccountID>
-				<AccountDescription>Existências</AccountDescription>
+				<AccountDescription>Existï¿½ncias</AccountDescription>
 				<OpeningDebitBalance>0.00</OpeningDebitBalance>
 				<OpeningCreditBalance>0.00</OpeningCreditBalance>
 				<ClosingDebitBalance>3844.08</ClosingDebitBalance>
@@ -1012,7 +1012,7 @@
 			</Account>
 			<Account>
 				<AccountID>936</AccountID>
-				<AccountDescription>Matérias Primas</AccountDescription>
+				<AccountDescription>Matï¿½rias Primas</AccountDescription>
 				<OpeningDebitBalance>0.00</OpeningDebitBalance>
 				<OpeningCreditBalance>0.00</OpeningCreditBalance>
 				<ClosingDebitBalance>3844.08</ClosingDebitBalance>
@@ -1031,7 +1031,7 @@
 			</Account>
 			<Account>
 				<AccountID>942</AccountID>
-				<AccountDescription>Centro de Custo de Produção</AccountDescription>
+				<AccountDescription>Centro de Custo de Produï¿½ï¿½o</AccountDescription>
 				<OpeningDebitBalance>0.00</OpeningDebitBalance>
 				<OpeningCreditBalance>0.00</OpeningCreditBalance>
 				<ClosingDebitBalance>0.00</ClosingDebitBalance>
@@ -1051,7 +1051,7 @@
 			</Account>
 			<Account>
 				<AccountID>95</AccountID>
-				<AccountDescription>Custos de Produção</AccountDescription>
+				<AccountDescription>Custos de Produï¿½ï¿½o</AccountDescription>
 				<OpeningDebitBalance>0.00</OpeningDebitBalance>
 				<OpeningCreditBalance>0.00</OpeningCreditBalance>
 				<ClosingDebitBalance>1270.04</ClosingDebitBalance>
@@ -1060,7 +1060,7 @@
 			</Account>
 			<Account>
 				<AccountID>951</AccountID>
-				<AccountDescription>Fabricação</AccountDescription>
+				<AccountDescription>Fabricaï¿½ï¿½o</AccountDescription>
 				<OpeningDebitBalance>0.00</OpeningDebitBalance>
 				<OpeningCreditBalance>0.00</OpeningCreditBalance>
 				<ClosingDebitBalance>1270.04</ClosingDebitBalance>
@@ -1114,7 +1114,7 @@
 			<CustomerID>AO823892388_C</CustomerID>
 			<AccountID>21113001</AccountID>
 			<CustomerTaxID>823892388</CustomerTaxID>
-			<CompanyName>Inforshow, Informática Comunicação</CompanyName>
+			<CompanyName>Inforshow, Informï¿½tica Comunicaï¿½ï¿½o</CompanyName>
 			<BillingAddress>
 				<AddressDetail>Av. dos Coqueiros, 464646</AddressDetail>
 				<City>Luanda</City>
@@ -1135,7 +1135,7 @@
 			<CustomerID>PT505678900_C</CustomerID>
 			<AccountID>21111003</AccountID>
 			<CustomerTaxID>505678900</CustomerTaxID>
-			<CompanyName>José Maria Fernandes &amp; Filhos, Lda.</CompanyName>
+			<CompanyName>Josï¿½ Maria Fernandes &amp; Filhos, Lda.</CompanyName>
 			<BillingAddress>
 				<AddressDetail>Av. do Norte, 484848</AddressDetail>
 				<City>Desconhecido</City>
@@ -1196,15 +1196,15 @@
 			<CustomerID>PT513686703_C</CustomerID>
 			<AccountID>21113006</AccountID>
 			<CustomerTaxID>513686703</CustomerTaxID>
-			<CompanyName>Maria José da Silva</CompanyName>
+			<CompanyName>Maria Josï¿½ da Silva</CompanyName>
 			<BillingAddress>
-				<AddressDetail>Rua de S. Geraldo Nº 41</AddressDetail>
+				<AddressDetail>Rua de S. Geraldo Nï¿½ 41</AddressDetail>
 				<City>Cividade</City>
 				<PostalCode>4700-008</PostalCode>
 				<Country>PT</Country>
 			</BillingAddress>
 			<ShipToAddress>
-				<AddressDetail>Rua de S. Geraldo Nº 41</AddressDetail>
+				<AddressDetail>Rua de S. Geraldo Nï¿½ 41</AddressDetail>
 				<City>Cividade</City>
 				<PostalCode>4700-008</PostalCode>
 				<Country>PT</Country>
@@ -1263,13 +1263,13 @@
 			<SupplierTaxID>583140688</SupplierTaxID>
 			<CompanyName>Publicidade &amp; Marrketing</CompanyName>
 			<BillingAddress>
-				<AddressDetail>Av. das Inovações, 4654765</AddressDetail>
+				<AddressDetail>Av. das Inovaï¿½ï¿½es, 4654765</AddressDetail>
 				<City>Desconhecido</City>
 				<PostalCode>4000</PostalCode>
 				<Country>PT</Country>
 			</BillingAddress>
 			<ShipFromAddress>
-				<AddressDetail>Av. das Inovações, 4654765</AddressDetail>
+				<AddressDetail>Av. das Inovaï¿½ï¿½es, 4654765</AddressDetail>
 				<City>Desconhecido</City>
 				<PostalCode>4000</PostalCode>
 				<Country>PT</Country>
@@ -1365,7 +1365,7 @@
 		<Product>
 			<ProductType>P</ProductType>
 			<ProductCode>C0001</ProductCode>
-			<ProductGroup>Multimédia</ProductGroup>
+			<ProductGroup>Multimï¿½dia</ProductGroup>
 			<ProductDescription>VideoProjector EMP-S4</ProductDescription>
 			<ProductNumberCode>5601234106480</ProductNumberCode>
 		</Product>
@@ -1386,57 +1386,57 @@
 		<Product>
 			<ProductType>O</ProductType>
 			<ProductCode>Especial</ProductCode>
-			<ProductGroup>Sem família</ProductGroup>
+			<ProductGroup>Sem famï¿½lia</ProductGroup>
 			<ProductDescription>Linha especial</ProductDescription>
 			<ProductNumberCode>Especial</ProductNumberCode>
 		</Product>
 		<Product>
 			<ProductType>S</ProductType>
 			<ProductCode>F0003</ProductCode>
-			<ProductGroup>Serviços</ProductGroup>
-			<ProductDescription>Serviços de Implementação</ProductDescription>
+			<ProductGroup>Serviï¿½os</ProductGroup>
+			<ProductDescription>Serviï¿½os de Implementaï¿½ï¿½o</ProductDescription>
 			<ProductNumberCode>F0003</ProductNumberCode>
 		</Product>
 		<Product>
 			<ProductType>P</ProductType>
 			<ProductCode>GAR001</ProductCode>
-			<ProductGroup>Bebidas Alcoólicas</ProductGroup>
+			<ProductGroup>Bebidas Alcoï¿½licas</ProductGroup>
 			<ProductDescription>Grarrafa de Whisky 15 anos B&amp;A</ProductDescription>
 			<ProductNumberCode>GAR001</ProductNumberCode>
 		</Product>
 		<Product>
 			<ProductType>P</ProductType>
 			<ProductCode>GAR009</ProductCode>
-			<ProductGroup>Bebidas Alcoólicas</ProductGroup>
+			<ProductGroup>Bebidas Alcoï¿½licas</ProductGroup>
 			<ProductDescription>Garrafa Bagaceira Regional - Caves Altas</ProductDescription>
 			<ProductNumberCode>GAR009</ProductNumberCode>
 		</Product>
 		<Product>
 			<ProductType>P</ProductType>
 			<ProductCode>GAR027</ProductCode>
-			<ProductGroup>Bebidas Alcoólicas</ProductGroup>
+			<ProductGroup>Bebidas Alcoï¿½licas</ProductGroup>
 			<ProductDescription>Vinho do Porto Vintage/1994 - Gold Grapes</ProductDescription>
 			<ProductNumberCode>GAR027</ProductNumberCode>
 		</Product>
 		<Product>
 			<ProductType>P</ProductType>
 			<ProductCode>H0001</ProductCode>
-			<ProductGroup>Acessórios</ProductGroup>
+			<ProductGroup>Acessï¿½rios</ProductGroup>
 			<ProductDescription>Cabo Paralelo</ProductDescription>
 			<ProductNumberCode>H0001</ProductNumberCode>
 		</Product>
 		<Product>
 			<ProductType>S</ProductType>
 			<ProductCode>M0001</ProductCode>
-			<ProductGroup>Sem família</ProductGroup>
-			<ProductDescription>Técnico de Assemblagem de Hardware</ProductDescription>
+			<ProductGroup>Sem famï¿½lia</ProductGroup>
+			<ProductDescription>Tï¿½cnico de Assemblagem de Hardware</ProductDescription>
 			<ProductNumberCode>M0001</ProductNumberCode>
 		</Product>
 		<Product>
 			<ProductType>P</ProductType>
 			<ProductCode>TAPETE</ProductCode>
-			<ProductGroup>Acessórios</ProductGroup>
-			<ProductDescription>Tapete de Rato 2.ª Geração</ProductDescription>
+			<ProductGroup>Acessï¿½rios</ProductGroup>
+			<ProductDescription>Tapete de Rato 2.ï¿½ Geraï¿½ï¿½o</ProductDescription>
 			<ProductNumberCode>TAPETE</ProductNumberCode>
 		</Product>
 		<TaxTable>
@@ -1479,7 +1479,7 @@
 				<TaxType>IVA</TaxType>
 				<TaxCountryRegion>PT</TaxCountryRegion>
 				<TaxCode>INT</TaxCode>
-				<Description>Intermédia</Description>
+				<Description>Intermï¿½dia</Description>
 				<TaxPercentage>12.00</TaxPercentage>
 			</TaxTableEntry>
 			<TaxTableEntry>
@@ -1542,7 +1542,7 @@
 				<TaxType>IVA</TaxType>
 				<TaxCountryRegion>PT-AC</TaxCountryRegion>
 				<TaxCode>INT</TaxCode>
-				<Description>Intermédia</Description>
+				<Description>Intermï¿½dia</Description>
 				<TaxPercentage>9.00</TaxPercentage>
 			</TaxTableEntry>
 			<TaxTableEntry>
@@ -1570,7 +1570,7 @@
 				<TaxType>IVA</TaxType>
 				<TaxCountryRegion>PT-MA</TaxCountryRegion>
 				<TaxCode>INT</TaxCode>
-				<Description>Intermédia</Description>
+				<Description>Intermï¿½dia</Description>
 				<TaxPercentage>12.00</TaxPercentage>
 			</TaxTableEntry>
 			<TaxTableEntry>
@@ -1627,13 +1627,13 @@
 		</Journal>
 		<Journal>
 			<JournalID>00031</JournalID>
-			<Description>Bancos - Depósitos</Description>
+			<Description>Bancos - Depï¿½sitos</Description>
 			<Transaction>
 				<TransactionID>2016-01-16 00031 10002</TransactionID>
 				<Period>1</Period>
 				<TransactionDate>2016-01-16</TransactionDate>
 				<SourceID>eugenio.veiga</SourceID>
-				<Description>RE N.º2/2</Description>
+				<Description>RE N.ï¿½2/2</Description>
 				<DocArchivalNumber>10002</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2016-09-14</GLPostingDate>
@@ -1643,7 +1643,7 @@
 						<AccountID>112</AccountID>
 						<SourceDocumentID>RE 2/2</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>RE Nº 5/A</Description>
+						<Description>RE Nï¿½ 5/A</Description>
 						<DebitAmount>352.10</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -1651,7 +1651,7 @@
 						<AccountID>21111001</AccountID>
 						<SourceDocumentID>RE 2/2</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>RE Nº 5/A</Description>
+						<Description>RE Nï¿½ 5/A</Description>
 						<CreditAmount>352.10</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -1661,7 +1661,7 @@
 				<Period>1</Period>
 				<TransactionDate>2016-01-30</TransactionDate>
 				<SourceID>eugenio.veiga</SourceID>
-				<Description>RE N.º1/2</Description>
+				<Description>RE N.ï¿½1/2</Description>
 				<DocArchivalNumber>10001</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2016-09-14</GLPostingDate>
@@ -1671,7 +1671,7 @@
 						<AccountID>112</AccountID>
 						<SourceDocumentID>RE 2/1</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>RE Nº 4/A</Description>
+						<Description>RE Nï¿½ 4/A</Description>
 						<DebitAmount>850.57</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -1679,7 +1679,7 @@
 						<AccountID>21111001</AccountID>
 						<SourceDocumentID>RE 2/1</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>RE Nº 4/A</Description>
+						<Description>RE Nï¿½ 4/A</Description>
 						<CreditAmount>850.57</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -1689,7 +1689,7 @@
 				<Period>3</Period>
 				<TransactionDate>2016-03-25</TransactionDate>
 				<SourceID>lucia.ribeiro</SourceID>
-				<Description>RE N.º6/A</Description>
+				<Description>RE N.ï¿½6/A</Description>
 				<DocArchivalNumber>30001</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2016-09-14</GLPostingDate>
@@ -1699,7 +1699,7 @@
 						<AccountID>112</AccountID>
 						<SourceDocumentID>RE A/6</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>RE Nº 6/A</Description>
+						<Description>RE Nï¿½ 6/A</Description>
 						<DebitAmount>123.42</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -1707,7 +1707,7 @@
 						<AccountID>21111001</AccountID>
 						<SourceDocumentID>RE A/6</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>RE Nº 6/A</Description>
+						<Description>RE Nï¿½ 6/A</Description>
 						<CreditAmount>123.42</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -1717,7 +1717,7 @@
 				<Period>6</Period>
 				<TransactionDate>2016-06-12</TransactionDate>
 				<SourceID>lucia.ribeiro</SourceID>
-				<Description>MOV N.º21/2</Description>
+				<Description>MOV N.ï¿½21/2</Description>
 				<DocArchivalNumber>60002</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2016-09-14</GLPostingDate>
@@ -1735,7 +1735,7 @@
 						<AccountID>1201</AccountID>
 						<SourceDocumentID>MOV 2/21</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>MOV Nº 40/A</Description>
+						<Description>MOV Nï¿½ 40/A</Description>
 						<CreditAmount>1000.00</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -1753,7 +1753,7 @@
 				<Period>1</Period>
 				<TransactionDate>2016-01-29</TransactionDate>
 				<SourceID>lucia.ribeiro</SourceID>
-				<Description>VFA N.º9/A</Description>
+				<Description>VFA N.ï¿½9/A</Description>
 				<DocArchivalNumber>10002</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2016-09-14</GLPostingDate>
@@ -1763,7 +1763,7 @@
 						<AccountID>24321132111</AccountID>
 						<SourceDocumentID>VFA A/9</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>VFA Nº 9/A</Description>
+						<Description>VFA Nï¿½ 9/A</Description>
 						<DebitAmount>252.00</DebitAmount>
 					</DebitLine>
 					<DebitLine>
@@ -1771,7 +1771,7 @@
 						<AccountID>24321132111</AccountID>
 						<SourceDocumentID>VFA A/9</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>VFA Nº 9/A</Description>
+						<Description>VFA Nï¿½ 9/A</Description>
 						<DebitAmount>909.75</DebitAmount>
 					</DebitLine>
 					<DebitLine>
@@ -1779,7 +1779,7 @@
 						<AccountID>3121</AccountID>
 						<SourceDocumentID>VFA A/9</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>VFA Nº 9/A</Description>
+						<Description>VFA Nï¿½ 9/A</Description>
 						<DebitAmount>1200.00</DebitAmount>
 					</DebitLine>
 					<DebitLine>
@@ -1787,7 +1787,7 @@
 						<AccountID>3121</AccountID>
 						<SourceDocumentID>VFA A/9</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>VFA Nº 9/A</Description>
+						<Description>VFA Nï¿½ 9/A</Description>
 						<DebitAmount>4332.06</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -1795,7 +1795,7 @@
 						<AccountID>22111002</AccountID>
 						<SourceDocumentID>VFA A/9</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>VFA Nº 9/A</Description>
+						<Description>VFA Nï¿½ 9/A</Description>
 						<CreditAmount>6693.81</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -1805,7 +1805,7 @@
 				<Period>1</Period>
 				<TransactionDate>2016-01-30</TransactionDate>
 				<SourceID>Administrador</SourceID>
-				<Description>VFA N.º3/A</Description>
+				<Description>VFA N.ï¿½3/A</Description>
 				<DocArchivalNumber>10003</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2016-09-14</GLPostingDate>
@@ -1815,7 +1815,7 @@
 						<AccountID>24321132111</AccountID>
 						<SourceDocumentID>VFA A/3</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>VFA Nº 10/A</Description>
+						<Description>VFA Nï¿½ 10/A</Description>
 						<DebitAmount>1791.97</DebitAmount>
 					</DebitLine>
 					<DebitLine>
@@ -1823,7 +1823,7 @@
 						<AccountID>3121</AccountID>
 						<SourceDocumentID>VFA A/3</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>VFA Nº 10/A</Description>
+						<Description>VFA Nï¿½ 10/A</Description>
 						<DebitAmount>8532.70</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -1831,7 +1831,7 @@
 						<AccountID>22111001</AccountID>
 						<SourceDocumentID>VFA A/3</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>VFA Nº 10/A</Description>
+						<Description>VFA Nï¿½ 10/A</Description>
 						<CreditAmount>10324.67</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -1841,7 +1841,7 @@
 				<Period>2</Period>
 				<TransactionDate>2016-02-22</TransactionDate>
 				<SourceID>lucia.ribeiro</SourceID>
-				<Description>VFP N.º1/A</Description>
+				<Description>VFP N.ï¿½1/A</Description>
 				<DocArchivalNumber>20001</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2016-09-14</GLPostingDate>
@@ -1851,7 +1851,7 @@
 						<AccountID>24321132111</AccountID>
 						<SourceDocumentID>VFP A/1</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>VFP Nº 1/A</Description>
+						<Description>VFP Nï¿½ 1/A</Description>
 						<DebitAmount>800.70</DebitAmount>
 					</DebitLine>
 					<DebitLine>
@@ -1859,7 +1859,7 @@
 						<AccountID>31611</AccountID>
 						<SourceDocumentID>VFP A/1</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>VFP Nº 1/A</Description>
+						<Description>VFP Nï¿½ 1/A</Description>
 						<DebitAmount>3812.88</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -1867,7 +1867,7 @@
 						<AccountID>31961</AccountID>
 						<SourceDocumentID>VFP A/1</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>VFP Nº 1/A</Description>
+						<Description>VFP Nï¿½ 1/A</Description>
 						<CreditAmount>3812.88</CreditAmount>
 					</CreditLine>
 					<DebitLine>
@@ -1875,7 +1875,7 @@
 						<AccountID>3612</AccountID>
 						<SourceDocumentID>VFP A/1</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>VFP Nº 1/A</Description>
+						<Description>VFP Nï¿½ 1/A</Description>
 						<DebitAmount>3812.88</DebitAmount>
 					</DebitLine>
 					<DebitLine>
@@ -1883,7 +1883,7 @@
 						<AccountID>936</AccountID>
 						<SourceDocumentID>VFP A/1</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>VFP Nº 1/A</Description>
+						<Description>VFP Nï¿½ 1/A</Description>
 						<DebitAmount>3812.88</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -1891,7 +1891,7 @@
 						<AccountID>9131</AccountID>
 						<SourceDocumentID>VFP A/1</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>VFP Nº 1/A</Description>
+						<Description>VFP Nï¿½ 1/A</Description>
 						<CreditAmount>3812.88</CreditAmount>
 					</CreditLine>
 					<CreditLine>
@@ -1899,7 +1899,7 @@
 						<AccountID>22111001</AccountID>
 						<SourceDocumentID>VFP A/1</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>VFP Nº 1/A</Description>
+						<Description>VFP Nï¿½ 1/A</Description>
 						<CreditAmount>4613.58</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -1909,7 +1909,7 @@
 				<Period>4</Period>
 				<TransactionDate>2016-04-24</TransactionDate>
 				<SourceID>lucia.ribeiro</SourceID>
-				<Description>VFA N.º6/2</Description>
+				<Description>VFA N.ï¿½6/2</Description>
 				<DocArchivalNumber>40001</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2016-09-14</GLPostingDate>
@@ -1919,7 +1919,7 @@
 						<AccountID>22111001</AccountID>
 						<SourceDocumentID>VFA 2/6</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>VFA Nº 13/A</Description>
+						<Description>VFA Nï¿½ 13/A</Description>
 						<CreditAmount>523.02</CreditAmount>
 					</CreditLine>
 					<DebitLine>
@@ -1927,7 +1927,7 @@
 						<AccountID>24321132111</AccountID>
 						<SourceDocumentID>VFA 2/6</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>VFA Nº 13/A</Description>
+						<Description>VFA Nï¿½ 13/A</Description>
 						<DebitAmount>90.77</DebitAmount>
 					</DebitLine>
 					<DebitLine>
@@ -1935,7 +1935,7 @@
 						<AccountID>3121</AccountID>
 						<SourceDocumentID>VFA 2/6</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>VFA Nº 13/A</Description>
+						<Description>VFA Nï¿½ 13/A</Description>
 						<DebitAmount>432.25</DebitAmount>
 					</DebitLine>
 				</Lines>
@@ -1945,7 +1945,7 @@
 				<Period>4</Period>
 				<TransactionDate>2016-04-30</TransactionDate>
 				<SourceID>Administrador</SourceID>
-				<Description>VNC N.º2/A</Description>
+				<Description>VNC N.ï¿½2/A</Description>
 				<DocArchivalNumber>40002</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2016-09-14</GLPostingDate>
@@ -1955,7 +1955,7 @@
 						<AccountID>22111001</AccountID>
 						<SourceDocumentID>VNC A/2</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>+VNC Nº 2/A+</Description>
+						<Description>+VNC Nï¿½ 2/A+</Description>
 						<DebitAmount>523.02</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -1963,7 +1963,7 @@
 						<AccountID>24321132111</AccountID>
 						<SourceDocumentID>VNC A/2</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>+VNC Nº 2/A+</Description>
+						<Description>+VNC Nï¿½ 2/A+</Description>
 						<CreditAmount>90.77</CreditAmount>
 					</CreditLine>
 					<CreditLine>
@@ -1971,7 +1971,7 @@
 						<AccountID>3121</AccountID>
 						<SourceDocumentID>VNC A/2</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>+VNC Nº 2/A+</Description>
+						<Description>+VNC Nï¿½ 2/A+</Description>
 						<CreditAmount>432.25</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -1981,7 +1981,7 @@
 				<Period>5</Period>
 				<TransactionDate>2016-05-22</TransactionDate>
 				<SourceID>Administrador</SourceID>
-				<Description>VFA N.º14/A</Description>
+				<Description>VFA N.ï¿½14/A</Description>
 				<DocArchivalNumber>50001</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2016-09-14</GLPostingDate>
@@ -1991,7 +1991,7 @@
 						<AccountID>24321132111</AccountID>
 						<SourceDocumentID>VFA A/14</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>VFA Nº 14/A</Description>
+						<Description>VFA Nï¿½ 14/A</Description>
 						<DebitAmount>764.40</DebitAmount>
 					</DebitLine>
 					<DebitLine>
@@ -1999,7 +1999,7 @@
 						<AccountID>3121</AccountID>
 						<SourceDocumentID>VFA A/14</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>VFA Nº 14/A</Description>
+						<Description>VFA Nï¿½ 14/A</Description>
 						<DebitAmount>3640.00</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -2007,7 +2007,7 @@
 						<AccountID>22111001</AccountID>
 						<SourceDocumentID>VFA A/14</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>VFA Nº 14/A</Description>
+						<Description>VFA Nï¿½ 14/A</Description>
 						<CreditAmount>4404.40</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -2017,7 +2017,7 @@
 				<Period>6</Period>
 				<TransactionDate>2016-06-27</TransactionDate>
 				<SourceID>Administrador</SourceID>
-				<Description>VFA N.º15/A</Description>
+				<Description>VFA N.ï¿½15/A</Description>
 				<DocArchivalNumber>60001</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2016-09-14</GLPostingDate>
@@ -2027,7 +2027,7 @@
 						<AccountID>24321132011</AccountID>
 						<SourceDocumentID>VFA A/15</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>VFA Nº 15/A</Description>
+						<Description>VFA Nï¿½ 15/A</Description>
 						<DebitAmount>29.93</DebitAmount>
 					</DebitLine>
 					<DebitLine>
@@ -2035,7 +2035,7 @@
 						<AccountID>3121</AccountID>
 						<SourceDocumentID>VFA A/15</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>VFA Nº 15/A</Description>
+						<Description>VFA Nï¿½ 15/A</Description>
 						<DebitAmount>149.64</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -2043,7 +2043,7 @@
 						<AccountID>22111001</AccountID>
 						<SourceDocumentID>VFA A/15</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>VFA Nº 15/A</Description>
+						<Description>VFA Nï¿½ 15/A</Description>
 						<CreditAmount>179.57</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -2053,7 +2053,7 @@
 				<Period>10</Period>
 				<TransactionDate>2016-10-06</TransactionDate>
 				<SourceID>user</SourceID>
-				<Description>VFA Nº 1/2016</Description>
+				<Description>VFA Nï¿½ 1/2016</Description>
 				<DocArchivalNumber>100001</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2016-10-06</GLPostingDate>
@@ -2063,7 +2063,7 @@
 						<AccountID>22111003</AccountID>
 						<SourceDocumentID>VFA 2016/1</SourceDocumentID>
 						<SystemEntryDate>2016-10-06T17:42:28</SystemEntryDate>
-						<Description>VFA Nº 1/2016</Description>
+						<Description>VFA Nï¿½ 1/2016</Description>
 						<CreditAmount>4184.78</CreditAmount>
 					</CreditLine>
 					<DebitLine>
@@ -2071,7 +2071,7 @@
 						<AccountID>24321132011</AccountID>
 						<SourceDocumentID>VFA 2016/1</SourceDocumentID>
 						<SystemEntryDate>2016-10-06T17:42:28</SystemEntryDate>
-						<Description>VFA Nº 1/2016</Description>
+						<Description>VFA Nï¿½ 1/2016</Description>
 						<DebitAmount>697.46</DebitAmount>
 					</DebitLine>
 					<DebitLine>
@@ -2079,7 +2079,7 @@
 						<AccountID>3121</AccountID>
 						<SourceDocumentID>VFA 2016/1</SourceDocumentID>
 						<SystemEntryDate>2016-10-06T17:42:28</SystemEntryDate>
-						<Description>VFA Nº 1/2016</Description>
+						<Description>VFA Nï¿½ 1/2016</Description>
 						<DebitAmount>3487.32</DebitAmount>
 					</DebitLine>
 				</Lines>
@@ -2089,7 +2089,7 @@
 				<Period>11</Period>
 				<TransactionDate>2016-11-23</TransactionDate>
 				<SourceID>lucia.ribeiro</SourceID>
-				<Description>VFP N.º2/A</Description>
+				<Description>VFP N.ï¿½2/A</Description>
 				<DocArchivalNumber>110001</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2016-09-14</GLPostingDate>
@@ -2099,7 +2099,7 @@
 						<AccountID>22111005</AccountID>
 						<SourceDocumentID>VFP A/2</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>VFP Nº 2/A</Description>
+						<Description>VFP Nï¿½ 2/A</Description>
 						<CreditAmount>37.75</CreditAmount>
 					</CreditLine>
 					<DebitLine>
@@ -2107,7 +2107,7 @@
 						<AccountID>24321132111</AccountID>
 						<SourceDocumentID>VFP A/2</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>VFP Nº 2/A</Description>
+						<Description>VFP Nï¿½ 2/A</Description>
 						<DebitAmount>6.55</DebitAmount>
 					</DebitLine>
 					<DebitLine>
@@ -2115,7 +2115,7 @@
 						<AccountID>31611</AccountID>
 						<SourceDocumentID>VFP A/2</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>VFP Nº 2/A</Description>
+						<Description>VFP Nï¿½ 2/A</Description>
 						<DebitAmount>31.20</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -2123,7 +2123,7 @@
 						<AccountID>31961</AccountID>
 						<SourceDocumentID>VFP A/2</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>VFP Nº 2/A</Description>
+						<Description>VFP Nï¿½ 2/A</Description>
 						<CreditAmount>31.20</CreditAmount>
 					</CreditLine>
 					<DebitLine>
@@ -2131,7 +2131,7 @@
 						<AccountID>3612</AccountID>
 						<SourceDocumentID>VFP A/2</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>VFP Nº 2/A</Description>
+						<Description>VFP Nï¿½ 2/A</Description>
 						<DebitAmount>31.20</DebitAmount>
 					</DebitLine>
 					<DebitLine>
@@ -2139,7 +2139,7 @@
 						<AccountID>936</AccountID>
 						<SourceDocumentID>VFP A/2</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>VFP Nº 2/A</Description>
+						<Description>VFP Nï¿½ 2/A</Description>
 						<DebitAmount>31.20</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -2147,7 +2147,7 @@
 						<AccountID>9131</AccountID>
 						<SourceDocumentID>VFP A/2</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>VFP Nº 2/A</Description>
+						<Description>VFP Nï¿½ 2/A</Description>
 						<CreditAmount>31.20</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -2155,13 +2155,13 @@
 		</Journal>
 		<Journal>
 			<JournalID>00051</JournalID>
-			<Description>Vendas - Crédito - MN</Description>
+			<Description>Vendas - Crï¿½dito - MN</Description>
 			<Transaction>
 				<TransactionID>2016-01-19 00051 10001</TransactionID>
 				<Period>1</Period>
 				<TransactionDate>2016-01-19</TransactionDate>
 				<SourceID>lucia.ribeiro</SourceID>
-				<Description>FA N.º15/A</Description>
+				<Description>FA N.ï¿½15/A</Description>
 				<DocArchivalNumber>10001</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2016-09-14</GLPostingDate>
@@ -2171,7 +2171,7 @@
 						<AccountID>21123004</AccountID>
 						<SourceDocumentID>FA A/15</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>FA Nº 15/A</Description>
+						<Description>FA Nï¿½ 15/A</Description>
 						<DebitAmount>13016.00</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -2179,7 +2179,7 @@
 						<AccountID>24331113211</AccountID>
 						<SourceDocumentID>FA A/15</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>FA Nº 15/A</Description>
+						<Description>FA Nï¿½ 15/A</Description>
 						<CreditAmount>2259.00</CreditAmount>
 					</CreditLine>
 					<CreditLine>
@@ -2187,7 +2187,7 @@
 						<AccountID>7111</AccountID>
 						<SourceDocumentID>FA A/15</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>FA Nº 15/A</Description>
+						<Description>FA Nï¿½ 15/A</Description>
 						<CreditAmount>10757.00</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -2197,7 +2197,7 @@
 				<Period>1</Period>
 				<TransactionDate>2016-01-20</TransactionDate>
 				<SourceID>lucia.ribeiro</SourceID>
-				<Description>FA N.º16/A</Description>
+				<Description>FA N.ï¿½16/A</Description>
 				<DocArchivalNumber>10002</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2016-09-14</GLPostingDate>
@@ -2207,7 +2207,7 @@
 						<AccountID>21111001</AccountID>
 						<SourceDocumentID>FA A/16</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>FA Nº 16/A</Description>
+						<Description>FA Nï¿½ 16/A</Description>
 						<DebitAmount>603.79</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -2215,7 +2215,7 @@
 						<AccountID>24331113211</AccountID>
 						<SourceDocumentID>FA A/16</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>FA Nº 16/A</Description>
+						<Description>FA Nï¿½ 16/A</Description>
 						<CreditAmount>104.79</CreditAmount>
 					</CreditLine>
 					<CreditLine>
@@ -2223,7 +2223,7 @@
 						<AccountID>7111</AccountID>
 						<SourceDocumentID>FA A/16</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>FA Nº 16/A</Description>
+						<Description>FA Nï¿½ 16/A</Description>
 						<CreditAmount>499.00</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -2233,7 +2233,7 @@
 				<Period>1</Period>
 				<TransactionDate>2016-01-25</TransactionDate>
 				<SourceID>lucia.ribeiro</SourceID>
-				<Description>FA N.º17/A</Description>
+				<Description>FA N.ï¿½17/A</Description>
 				<DocArchivalNumber>10003</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2016-09-14</GLPostingDate>
@@ -2243,7 +2243,7 @@
 						<AccountID>21111003</AccountID>
 						<SourceDocumentID>FA A/17</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>FA Nº 17/A</Description>
+						<Description>FA Nï¿½ 17/A</Description>
 						<DebitAmount>2511.98</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -2251,7 +2251,7 @@
 						<AccountID>24331113211</AccountID>
 						<SourceDocumentID>FA A/17</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>FA Nº 17/A</Description>
+						<Description>FA Nï¿½ 17/A</Description>
 						<CreditAmount>435.98</CreditAmount>
 					</CreditLine>
 					<CreditLine>
@@ -2259,7 +2259,7 @@
 						<AccountID>7111</AccountID>
 						<SourceDocumentID>FA A/17</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>FA Nº 17/A</Description>
+						<Description>FA Nï¿½ 17/A</Description>
 						<CreditAmount>2076.00</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -2269,7 +2269,7 @@
 				<Period>1</Period>
 				<TransactionDate>2016-01-30</TransactionDate>
 				<SourceID>teste</SourceID>
-				<Description>FA N.º18/A</Description>
+				<Description>FA N.ï¿½18/A</Description>
 				<DocArchivalNumber>10004</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2016-09-14</GLPostingDate>
@@ -2279,7 +2279,7 @@
 						<AccountID>21111001</AccountID>
 						<SourceDocumentID>FA A/18</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>FA Nº 18/A</Description>
+						<Description>FA Nï¿½ 18/A</Description>
 						<DebitAmount>3480.67</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -2287,7 +2287,7 @@
 						<AccountID>24331213211</AccountID>
 						<SourceDocumentID>FA A/18</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>FA Nº 18/A</Description>
+						<Description>FA Nï¿½ 18/A</Description>
 						<CreditAmount>50.94</CreditAmount>
 					</CreditLine>
 					<CreditLine>
@@ -2295,7 +2295,7 @@
 						<AccountID>24331113211</AccountID>
 						<SourceDocumentID>FA A/18</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>FA Nº 18/A</Description>
+						<Description>FA Nï¿½ 18/A</Description>
 						<CreditAmount>553.14</CreditAmount>
 					</CreditLine>
 					<CreditLine>
@@ -2303,7 +2303,7 @@
 						<AccountID>7211</AccountID>
 						<SourceDocumentID>FA A/18</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>FA Nº 18/A</Description>
+						<Description>FA Nï¿½ 18/A</Description>
 						<CreditAmount>242.59</CreditAmount>
 					</CreditLine>
 					<CreditLine>
@@ -2311,7 +2311,7 @@
 						<AccountID>7111</AccountID>
 						<SourceDocumentID>FA A/18</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>FA Nº 18/A</Description>
+						<Description>FA Nï¿½ 18/A</Description>
 						<CreditAmount>2634.00</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -2321,7 +2321,7 @@
 				<Period>2</Period>
 				<TransactionDate>2016-02-10</TransactionDate>
 				<SourceID>lucia.ribeiro</SourceID>
-				<Description>FA N.º19/A</Description>
+				<Description>FA N.ï¿½19/A</Description>
 				<DocArchivalNumber>20001</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2016-09-14</GLPostingDate>
@@ -2331,7 +2331,7 @@
 						<AccountID>21113006</AccountID>
 						<SourceDocumentID>FA A/19</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>FA Nº 19/A</Description>
+						<Description>FA Nï¿½ 19/A</Description>
 						<DebitAmount>2837.40</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -2339,7 +2339,7 @@
 						<AccountID>24331113211</AccountID>
 						<SourceDocumentID>FA A/19</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>FA Nº 19/A</Description>
+						<Description>FA Nï¿½ 19/A</Description>
 						<CreditAmount>492.44</CreditAmount>
 					</CreditLine>
 					<CreditLine>
@@ -2347,7 +2347,7 @@
 						<AccountID>7111</AccountID>
 						<SourceDocumentID>FA A/19</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>FA Nº 19/A</Description>
+						<Description>FA Nï¿½ 19/A</Description>
 						<CreditAmount>2344.96</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -2357,7 +2357,7 @@
 				<Period>2</Period>
 				<TransactionDate>2016-02-24</TransactionDate>
 				<SourceID>lucia.ribeiro</SourceID>
-				<Description>FA N.º20/A</Description>
+				<Description>FA N.ï¿½20/A</Description>
 				<DocArchivalNumber>20002</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2016-09-14</GLPostingDate>
@@ -2368,7 +2368,7 @@
 						<AccountID>21113001</AccountID>
 						<SourceDocumentID>FA A/20</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>FA Nº 20/A</Description>
+						<Description>FA Nï¿½ 20/A</Description>
 						<DebitAmount>1781.70</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -2376,7 +2376,7 @@
 						<AccountID>24331213211</AccountID>
 						<SourceDocumentID>FA A/20</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>FA Nº 20/A</Description>
+						<Description>FA Nï¿½ 20/A</Description>
 						<CreditAmount>63.00</CreditAmount>
 					</CreditLine>
 					<CreditLine>
@@ -2384,7 +2384,7 @@
 						<AccountID>24331113211</AccountID>
 						<SourceDocumentID>FA A/20</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>FA Nº 20/A</Description>
+						<Description>FA Nï¿½ 20/A</Description>
 						<CreditAmount>246.22</CreditAmount>
 					</CreditLine>
 					<CreditLine>
@@ -2392,7 +2392,7 @@
 						<AccountID>7211</AccountID>
 						<SourceDocumentID>FA A/20</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>FA Nº 20/A</Description>
+						<Description>FA Nï¿½ 20/A</Description>
 						<CreditAmount>300.00</CreditAmount>
 					</CreditLine>
 					<CreditLine>
@@ -2400,7 +2400,7 @@
 						<AccountID>7111</AccountID>
 						<SourceDocumentID>FA A/20</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>FA Nº 20/A</Description>
+						<Description>FA Nï¿½ 20/A</Description>
 						<CreditAmount>1172.48</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -2410,7 +2410,7 @@
 				<Period>3</Period>
 				<TransactionDate>2016-03-10</TransactionDate>
 				<SourceID>lucia.ribeiro</SourceID>
-				<Description>FA N.º21/A</Description>
+				<Description>FA N.ï¿½21/A</Description>
 				<DocArchivalNumber>30001</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2016-09-14</GLPostingDate>
@@ -2420,7 +2420,7 @@
 						<AccountID>21111001</AccountID>
 						<SourceDocumentID>FA A/21</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>FA Nº 21/A</Description>
+						<Description>FA Nï¿½ 21/A</Description>
 						<DebitAmount>2175.66</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -2428,7 +2428,7 @@
 						<AccountID>24331113211</AccountID>
 						<SourceDocumentID>FA A/21</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>FA Nº 21/A</Description>
+						<Description>FA Nï¿½ 21/A</Description>
 						<CreditAmount>377.59</CreditAmount>
 					</CreditLine>
 					<CreditLine>
@@ -2436,7 +2436,7 @@
 						<AccountID>7111</AccountID>
 						<SourceDocumentID>FA A/21</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>FA Nº 21/A</Description>
+						<Description>FA Nï¿½ 21/A</Description>
 						<CreditAmount>1798.07</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -2446,7 +2446,7 @@
 				<Period>4</Period>
 				<TransactionDate>2016-04-30</TransactionDate>
 				<SourceID>Administrador</SourceID>
-				<Description>FA N.º22/A</Description>
+				<Description>FA N.ï¿½22/A</Description>
 				<DocArchivalNumber>40001</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2016-09-14</GLPostingDate>
@@ -2456,7 +2456,7 @@
 						<AccountID>7111</AccountID>
 						<SourceDocumentID>FA A/22</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>FA Nº 22/A</Description>
+						<Description>FA Nï¿½ 22/A</Description>
 						<CreditAmount>474.12</CreditAmount>
 					</CreditLine>
 					<DebitLine>
@@ -2464,7 +2464,7 @@
 						<AccountID>21113006</AccountID>
 						<SourceDocumentID>FA A/22</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>FA Nº 22/A</Description>
+						<Description>FA Nï¿½ 22/A</Description>
 						<DebitAmount>575.46</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -2472,7 +2472,7 @@
 						<AccountID>24331113201</AccountID>
 						<SourceDocumentID>FA A/22</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>FA Nº 22/A</Description>
+						<Description>FA Nï¿½ 22/A</Description>
 						<CreditAmount>101.34</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -2482,7 +2482,7 @@
 				<Period>7</Period>
 				<TransactionDate>2016-07-10</TransactionDate>
 				<SourceID>user</SourceID>
-				<Description>FA Nº 676/2016</Description>
+				<Description>FA Nï¿½ 676/2016</Description>
 				<DocArchivalNumber>70001</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2016-09-14</GLPostingDate>
@@ -2492,7 +2492,7 @@
 						<AccountID>21111001</AccountID>
 						<SourceDocumentID>FA 2016/676</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T15:38:56</SystemEntryDate>
-						<Description>FA Nº 676/2016</Description>
+						<Description>FA Nï¿½ 676/2016</Description>
 						<DebitAmount>5605.20</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -2500,7 +2500,7 @@
 						<AccountID>24331113201</AccountID>
 						<SourceDocumentID>FA 2016/676</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T15:38:56</SystemEntryDate>
-						<Description>FA Nº 676/2016</Description>
+						<Description>FA Nï¿½ 676/2016</Description>
 						<CreditAmount>934.20</CreditAmount>
 					</CreditLine>
 					<CreditLine>
@@ -2508,7 +2508,7 @@
 						<AccountID>7111</AccountID>
 						<SourceDocumentID>FA 2016/676</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T15:38:56</SystemEntryDate>
-						<Description>FA Nº 676/2016</Description>
+						<Description>FA Nï¿½ 676/2016</Description>
 						<CreditAmount>4671.00</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -2518,7 +2518,7 @@
 				<Period>9</Period>
 				<TransactionDate>2016-09-14</TransactionDate>
 				<SourceID>user</SourceID>
-				<Description>FA Nº 677/2016</Description>
+				<Description>FA Nï¿½ 677/2016</Description>
 				<DocArchivalNumber>90001</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2016-09-14</GLPostingDate>
@@ -2528,7 +2528,7 @@
 						<AccountID>21111001</AccountID>
 						<SourceDocumentID>FA 2016/677</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T15:39:30</SystemEntryDate>
-						<Description>FA Nº 677/2016</Description>
+						<Description>FA Nï¿½ 677/2016</Description>
 						<DebitAmount>900.00</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -2536,7 +2536,7 @@
 						<AccountID>24331113201</AccountID>
 						<SourceDocumentID>FA 2016/677</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T15:39:30</SystemEntryDate>
-						<Description>FA Nº 677/2016</Description>
+						<Description>FA Nï¿½ 677/2016</Description>
 						<CreditAmount>150.00</CreditAmount>
 					</CreditLine>
 					<CreditLine>
@@ -2544,7 +2544,7 @@
 						<AccountID>7111</AccountID>
 						<SourceDocumentID>FA 2016/677</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T15:39:30</SystemEntryDate>
-						<Description>FA Nº 677/2016</Description>
+						<Description>FA Nï¿½ 677/2016</Description>
 						<CreditAmount>750.00</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -2554,7 +2554,7 @@
 				<Period>10</Period>
 				<TransactionDate>2016-10-06</TransactionDate>
 				<SourceID>user</SourceID>
-				<Description>FA Nº 678/2016</Description>
+				<Description>FA Nï¿½ 678/2016</Description>
 				<DocArchivalNumber>100001</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2016-10-06</GLPostingDate>
@@ -2565,7 +2565,7 @@
 						<AccountID>21123004</AccountID>
 						<SourceDocumentID>FA 2016/678</SourceDocumentID>
 						<SystemEntryDate>2016-10-06T17:33:28</SystemEntryDate>
-						<Description>FA Nº 678/2016</Description>
+						<Description>FA Nï¿½ 678/2016</Description>
 						<DebitAmount>326.71</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -2573,7 +2573,7 @@
 						<AccountID>7112</AccountID>
 						<SourceDocumentID>FA 2016/678</SourceDocumentID>
 						<SystemEntryDate>2016-10-06T17:33:28</SystemEntryDate>
-						<Description>FA Nº 678/2016</Description>
+						<Description>FA Nï¿½ 678/2016</Description>
 						<CreditAmount>326.71</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -2583,7 +2583,7 @@
 				<Period>10</Period>
 				<TransactionDate>2016-10-07</TransactionDate>
 				<SourceID>user</SourceID>
-				<Description>FA Nº 679/2016</Description>
+				<Description>FA Nï¿½ 679/2016</Description>
 				<DocArchivalNumber>100002</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2016-10-07</GLPostingDate>
@@ -2593,7 +2593,7 @@
 						<AccountID>21111003</AccountID>
 						<SourceDocumentID>FA 2016/679</SourceDocumentID>
 						<SystemEntryDate>2016-10-07T12:31:36</SystemEntryDate>
-						<Description>FA Nº 679/2016</Description>
+						<Description>FA Nï¿½ 679/2016</Description>
 						<DebitAmount>2637.60</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -2601,7 +2601,7 @@
 						<AccountID>24331113201</AccountID>
 						<SourceDocumentID>FA 2016/679</SourceDocumentID>
 						<SystemEntryDate>2016-10-07T12:31:36</SystemEntryDate>
-						<Description>FA Nº 679/2016</Description>
+						<Description>FA Nï¿½ 679/2016</Description>
 						<CreditAmount>439.60</CreditAmount>
 					</CreditLine>
 					<CreditLine>
@@ -2609,7 +2609,7 @@
 						<AccountID>7111</AccountID>
 						<SourceDocumentID>FA 2016/679</SourceDocumentID>
 						<SystemEntryDate>2016-10-07T12:31:36</SystemEntryDate>
-						<Description>FA Nº 679/2016</Description>
+						<Description>FA Nï¿½ 679/2016</Description>
 						<CreditAmount>2198.00</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -2619,7 +2619,7 @@
 				<Period>10</Period>
 				<TransactionDate>2016-10-07</TransactionDate>
 				<SourceID>user</SourceID>
-				<Description>FA Nº 680/2016</Description>
+				<Description>FA Nï¿½ 680/2016</Description>
 				<DocArchivalNumber>100003</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2016-10-07</GLPostingDate>
@@ -2630,7 +2630,7 @@
 						<AccountID>21113002</AccountID>
 						<SourceDocumentID>FA 2016/680</SourceDocumentID>
 						<SystemEntryDate>2016-10-07T17:57:59</SystemEntryDate>
-						<Description>FA Nº 680/2016</Description>
+						<Description>FA Nï¿½ 680/2016</Description>
 						<DebitAmount>2311.20</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -2638,7 +2638,7 @@
 						<AccountID>24331113201</AccountID>
 						<SourceDocumentID>FA 2016/680</SourceDocumentID>
 						<SystemEntryDate>2016-10-07T17:57:59</SystemEntryDate>
-						<Description>FA Nº 680/2016</Description>
+						<Description>FA Nï¿½ 680/2016</Description>
 						<CreditAmount>385.20</CreditAmount>
 					</CreditLine>
 					<CreditLine>
@@ -2646,7 +2646,7 @@
 						<AccountID>7111</AccountID>
 						<SourceDocumentID>FA 2016/680</SourceDocumentID>
 						<SystemEntryDate>2016-10-07T17:57:59</SystemEntryDate>
-						<Description>FA Nº 680/2016</Description>
+						<Description>FA Nï¿½ 680/2016</Description>
 						<CreditAmount>1926.00</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -2660,7 +2660,7 @@
 				<Period>1</Period>
 				<TransactionDate>2016-01-04</TransactionDate>
 				<SourceID>lucia.ribeiro</SourceID>
-				<Description>VD N.º1/A</Description>
+				<Description>VD N.ï¿½1/A</Description>
 				<DocArchivalNumber>10001</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2016-09-14</GLPostingDate>
@@ -2671,7 +2671,7 @@
 						<AccountID>112</AccountID>
 						<SourceDocumentID>VD A/1</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>VD Nº 1/A</Description>
+						<Description>VD Nï¿½ 1/A</Description>
 						<DebitAmount>371.28</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -2679,7 +2679,7 @@
 						<AccountID>7111</AccountID>
 						<SourceDocumentID>VD A/1</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>VD Nº 1/A</Description>
+						<Description>VD Nï¿½ 1/A</Description>
 						<CreditAmount>306.84</CreditAmount>
 					</CreditLine>
 					<CreditLine>
@@ -2687,7 +2687,7 @@
 						<AccountID>24331113211</AccountID>
 						<SourceDocumentID>VD A/1</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>VD Nº 1/A</Description>
+						<Description>VD Nï¿½ 1/A</Description>
 						<CreditAmount>64.44</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -2767,13 +2767,13 @@
 		</Journal>
 		<Journal>
 			<JournalID>00092</JournalID>
-			<Description>Ordens de Produção</Description>
+			<Description>Ordens de Produï¿½ï¿½o</Description>
 			<Transaction>
 				<TransactionID>2016-01-22 00092 10004</TransactionID>
 				<Period>1</Period>
 				<TransactionDate>2016-01-22</TransactionDate>
 				<SourceID>lucia.ribeiro</SourceID>
-				<Description>SOF N.º1/A</Description>
+				<Description>SOF N.ï¿½1/A</Description>
 				<DocArchivalNumber>10004</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2016-09-14</GLPostingDate>
@@ -2783,7 +2783,7 @@
 						<AccountID>3612</AccountID>
 						<SourceDocumentID>SOF A/1</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>SOF Nº 1/A</Description>
+						<Description>SOF Nï¿½ 1/A</Description>
 						<CreditAmount>596.96</CreditAmount>
 					</CreditLine>
 					<DebitLine>
@@ -2791,7 +2791,7 @@
 						<AccountID>61611</AccountID>
 						<SourceDocumentID>SOF A/1</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>SOF Nº 1/A</Description>
+						<Description>SOF Nï¿½ 1/A</Description>
 						<DebitAmount>596.96</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -2799,7 +2799,7 @@
 						<AccountID>936</AccountID>
 						<SourceDocumentID>SOF A/1</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>SOF Nº 1/A</Description>
+						<Description>SOF Nï¿½ 1/A</Description>
 						<CreditAmount>596.96</CreditAmount>
 					</CreditLine>
 					<DebitLine>
@@ -2807,7 +2807,7 @@
 						<AccountID>951</AccountID>
 						<SourceDocumentID>SOF A/1</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>SOF Nº 1/A</Description>
+						<Description>SOF Nï¿½ 1/A</Description>
 						<DebitAmount>596.96</DebitAmount>
 					</DebitLine>
 				</Lines>
@@ -2817,7 +2817,7 @@
 				<Period>1</Period>
 				<TransactionDate>2016-01-25</TransactionDate>
 				<SourceID>lucia.ribeiro</SourceID>
-				<Description>SOF N.º2/A</Description>
+				<Description>SOF N.ï¿½2/A</Description>
 				<DocArchivalNumber>10005</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2016-09-14</GLPostingDate>
@@ -2827,7 +2827,7 @@
 						<AccountID>3612</AccountID>
 						<SourceDocumentID>SOF A/2</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>SOF Nº 2/A</Description>
+						<Description>SOF Nï¿½ 2/A</Description>
 						<CreditAmount>431.68</CreditAmount>
 					</CreditLine>
 					<DebitLine>
@@ -2835,7 +2835,7 @@
 						<AccountID>61611</AccountID>
 						<SourceDocumentID>SOF A/2</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>SOF Nº 2/A</Description>
+						<Description>SOF Nï¿½ 2/A</Description>
 						<DebitAmount>431.68</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -2843,7 +2843,7 @@
 						<AccountID>936</AccountID>
 						<SourceDocumentID>SOF A/2</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>SOF Nº 2/A</Description>
+						<Description>SOF Nï¿½ 2/A</Description>
 						<CreditAmount>431.68</CreditAmount>
 					</CreditLine>
 					<DebitLine>
@@ -2851,7 +2851,7 @@
 						<AccountID>951</AccountID>
 						<SourceDocumentID>SOF A/2</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>SOF Nº 2/A</Description>
+						<Description>SOF Nï¿½ 2/A</Description>
 						<DebitAmount>431.68</DebitAmount>
 					</DebitLine>
 				</Lines>
@@ -2861,7 +2861,7 @@
 				<Period>1</Period>
 				<TransactionDate>2016-01-30</TransactionDate>
 				<SourceID>LUCIA.RIBEIRO</SourceID>
-				<Description>DT N.º8/2006</Description>
+				<Description>DT N.ï¿½8/2006</Description>
 				<DocArchivalNumber>10002</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2016-09-14</GLPostingDate>
@@ -2871,7 +2871,7 @@
 						<AccountID>951</AccountID>
 						<SourceDocumentID>921 A/8</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>DT Nº 8/A</Description>
+						<Description>DT Nï¿½ 8/A</Description>
 						<DebitAmount>11.00</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -2879,7 +2879,7 @@
 						<AccountID>94201</AccountID>
 						<SourceDocumentID>921 A/8</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>DT Nº 8/A</Description>
+						<Description>DT Nï¿½ 8/A</Description>
 						<CreditAmount>11.00</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -2889,7 +2889,7 @@
 				<Period>2</Period>
 				<TransactionDate>2016-02-12</TransactionDate>
 				<SourceID>lucia.ribeiro</SourceID>
-				<Description>SOF N.º3/A</Description>
+				<Description>SOF N.ï¿½3/A</Description>
 				<DocArchivalNumber>20001</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2016-09-14</GLPostingDate>
@@ -2899,7 +2899,7 @@
 						<AccountID>3612</AccountID>
 						<SourceDocumentID>SOF A/3</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>SOF Nº 3/A</Description>
+						<Description>SOF Nï¿½ 3/A</Description>
 						<CreditAmount>230.40</CreditAmount>
 					</CreditLine>
 					<DebitLine>
@@ -2907,7 +2907,7 @@
 						<AccountID>61611</AccountID>
 						<SourceDocumentID>SOF A/3</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>SOF Nº 3/A</Description>
+						<Description>SOF Nï¿½ 3/A</Description>
 						<DebitAmount>230.40</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -2915,7 +2915,7 @@
 						<AccountID>936</AccountID>
 						<SourceDocumentID>SOF A/3</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>SOF Nº 3/A</Description>
+						<Description>SOF Nï¿½ 3/A</Description>
 						<CreditAmount>230.40</CreditAmount>
 					</CreditLine>
 					<DebitLine>
@@ -2923,7 +2923,7 @@
 						<AccountID>951</AccountID>
 						<SourceDocumentID>SOF A/3</SourceDocumentID>
 						<SystemEntryDate>2016-09-14T00:25:15</SystemEntryDate>
-						<Description>SOF Nº 3/A</Description>
+						<Description>SOF Nï¿½ 3/A</Description>
 						<DebitAmount>230.40</DebitAmount>
 					</DebitLine>
 				</Lines>
@@ -3064,8 +3064,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -4190,8 +4190,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -4606,8 +4606,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -4986,8 +4986,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -5850,8 +5850,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -6266,8 +6266,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -6786,8 +6786,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -7288,8 +7288,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -7772,8 +7772,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -10454,8 +10454,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -10938,8 +10938,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -11318,8 +11318,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -12046,8 +12046,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -13534,8 +13534,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -14036,8 +14036,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -14452,8 +14452,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -15682,8 +15682,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -17170,8 +17170,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -17550,8 +17550,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -17966,8 +17966,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -18866,8 +18866,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -20892,8 +20892,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -21828,8 +21828,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -22624,8 +22624,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -23126,8 +23126,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -23592,8 +23592,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -23990,8 +23990,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -24406,8 +24406,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -24908,8 +24908,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -25288,8 +25288,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -25790,8 +25790,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -26256,8 +26256,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -26722,8 +26722,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -27224,8 +27224,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -27744,8 +27744,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -28644,8 +28644,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -29924,8 +29924,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -30340,8 +30340,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -30860,8 +30860,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -31656,8 +31656,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -32764,8 +32764,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -33266,8 +33266,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -33732,8 +33732,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -34130,8 +34130,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -36102,8 +36102,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -36622,8 +36622,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -37866,8 +37866,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -38332,8 +38332,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -38798,8 +38798,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -39264,8 +39264,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -39680,8 +39680,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -40512,8 +40512,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -40996,8 +40996,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -41792,8 +41792,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -42240,8 +42240,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -43122,8 +43122,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -43502,8 +43502,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -44402,8 +44402,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -44904,8 +44904,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -46030,8 +46030,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -46826,8 +46826,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -47328,8 +47328,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -48020,8 +48020,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -48504,8 +48504,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -48970,8 +48970,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -50512,8 +50512,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -51222,8 +51222,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -51638,8 +51638,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -52416,8 +52416,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -52796,8 +52796,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -53660,8 +53660,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -54058,8 +54058,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -55668,8 +55668,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -56066,8 +56066,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -56568,8 +56568,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -57052,8 +57052,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -57432,8 +57432,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -58210,8 +58210,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -58590,8 +58590,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -59490,8 +59490,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -59906,8 +59906,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -60426,8 +60426,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -61516,8 +61516,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -62000,8 +62000,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -63194,8 +63194,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -63660,8 +63660,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -64560,8 +64560,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -65442,8 +65442,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -67518,8 +67518,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -68020,8 +68020,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -68938,8 +68938,8 @@
 				<ShipTo>
 					<DeliveryDate>2016-09-14</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua Josï¿½ Inï¿½cio Peixoto Nï¿½ 68</AddressDetail>
+						<City>Sï¿½</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -70741,12 +70741,12 @@
 				<Line>
 					<LineNumber>2</LineNumber>
 					<ProductCode>M0001</ProductCode>
-					<ProductDescription>Técnico de Assemblagem de Hardware</ProductDescription>
+					<ProductDescription>Tï¿½cnico de Assemblagem de Hardware</ProductDescription>
 					<Quantity>8</Quantity>
 					<UnitOfMeasure>HR</UnitOfMeasure>
 					<UnitPrice>30.324</UnitPrice>
 					<TaxPointDate>2016-01-30</TaxPointDate>
-					<Description>Técnico de Assemblagem de Hardware</Description>
+					<Description>Tï¿½cnico de Assemblagem de Hardware</Description>
 					<CreditAmount>242.59</CreditAmount>
 					<Tax>
 						<TaxType>IVA</TaxType>
@@ -70933,12 +70933,12 @@
 				<Line>
 					<LineNumber>3</LineNumber>
 					<ProductCode>F0003</ProductCode>
-					<ProductDescription>Serviços de Implementação</ProductDescription>
+					<ProductDescription>Serviï¿½os de Implementaï¿½ï¿½o</ProductDescription>
 					<Quantity>1</Quantity>
 					<UnitOfMeasure>UN</UnitOfMeasure>
 					<UnitPrice>300</UnitPrice>
 					<TaxPointDate>2016-02-24</TaxPointDate>
-					<Description>Serviços de Implementação</Description>
+					<Description>Serviï¿½os de Implementaï¿½ï¿½o</Description>
 					<CreditAmount>300.00</CreditAmount>
 					<Tax>
 						<TaxType>IVA</TaxType>
@@ -71348,7 +71348,7 @@
 					<UnitOfMeasure>UN</UnitOfMeasure>
 					<UnitPrice>100</UnitPrice>
 					<TaxPointDate>2016-01-29</TaxPointDate>
-					<Description>Outros Serviços</Description>
+					<Description>Outros Serviï¿½os</Description>
 					<CreditAmount>100.00</CreditAmount>
 					<Tax>
 						<TaxType>IVA</TaxType>
@@ -71411,12 +71411,12 @@
 				<Line>
 					<LineNumber>1</LineNumber>
 					<ProductCode>TAPETE</ProductCode>
-					<ProductDescription>Tapete de Rato 2.ª Geração</ProductDescription>
+					<ProductDescription>Tapete de Rato 2.ï¿½ Geraï¿½ï¿½o</ProductDescription>
 					<Quantity>1</Quantity>
 					<UnitOfMeasure>UN</UnitOfMeasure>
 					<UnitPrice>0.5</UnitPrice>
 					<TaxPointDate>2016-01-30</TaxPointDate>
-					<Description>Tapete de Rato 2.ª Geração</Description>
+					<Description>Tapete de Rato 2.ï¿½ Geraï¿½ï¿½o</Description>
 					<CreditAmount>0.50</CreditAmount>
 					<Tax>
 						<TaxType>IVA</TaxType>
