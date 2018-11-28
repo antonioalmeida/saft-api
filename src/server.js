@@ -18,7 +18,7 @@ server.get('/echo', (req, res) => {
 //Average sales value
 server.get('/sales/average-sales-value', (req, res) => {
 
-	const { NumberOfEntries, TotalCredit } = db.SourceDocuments.SalesInvoices;
+	const { NumberOfEntries, TotalCredit } = db.SalesInvoicesInfo;
 
 	const averageSalesValue = TotalCredit/NumberOfEntries;
 
