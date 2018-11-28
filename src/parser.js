@@ -49,6 +49,36 @@ const parseContents = (json) => {
 		...TaxTable
 	};
 
+	parseSourceDocuments(parsed);
+
 	return JSON.stringify(parsed);
+}
+
+const parseSourceDocuments = (obj) => {
+
+	let SalesInvoices = obj.SourceDocuments.SalesInvoices;
+
+	const { Invoice, NumberOfEntries, TotalDebit, TotalCredit } = SalesInvoices;
+
+	obj.SalesInvoicesInfo = {
+		NumberOfEntries,
+		TotalDebit,
+		TotalCredit
+	};
+
+	obj.SalesInvoices = Invoice;
+
+	let MovementOfGoods = obj.SourceDocuments.MovementOfGoods;
+
+	const { NumberOfMovementLines, TotalQuantityIssued, StockMovement } = MovementOfGoods;
+
+	obj.StockMovementsInfo = {
+		NumberOfMovementLines,
+		TotalQuantityIssued
+	};
+
+	obj.StockMovements = StockMovement;
+
+	delete obj.SourceDocuments;
 }
 
