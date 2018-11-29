@@ -57,7 +57,6 @@ const parseContents = (json) => {
 const parseSourceDocuments = (obj) => {
 
 	let SalesInvoices = obj.SourceDocuments.SalesInvoices;
-	delete obj.SourceDocuments;
 
 	const { Invoice, NumberOfEntries, TotalDebit, TotalCredit } = SalesInvoices;
 
@@ -69,8 +68,10 @@ const parseSourceDocuments = (obj) => {
 
 	obj.SalesInvoices = Invoice;
 
-	if(!obj.SourceDocuments.MovementOfGoods)
+	if(!obj.SourceDocuments.MovementOfGoods) {
+		delete obj.SourceDocuments;
 		return;
+	}
 
 	let MovementOfGoods = obj.SourceDocuments.MovementOfGoods;
 
@@ -83,5 +84,6 @@ const parseSourceDocuments = (obj) => {
 
 	obj.StockMovements = StockMovement;
 
+	delete obj.SourceDocuments;
 }
 
