@@ -45,10 +45,18 @@ server.get('/sales/top-selling-products', (req, res) => {
 				if(products.hasOwnProperty(ProductCode)){
 					products[ProductCode].Quantity += parseInt(Quantity);
 				} else {
-					products[ProductCode] = { ProductDescription, UnitPrice, Quantity: parseInt(Quantity) };
+					products[ProductCode] = { ProductDescription, UnitPrice: parseFloat(UnitPrice), Quantity: parseInt(Quantity) };
 				}
 			});
 	});
+
+	products = Object.keys(products)
+		  .sort((a,b) => products[b].Quantity - products[a].Quantity).map(elem => ({
+			  ProductCode: elem,
+			  ProductDescription: products[elem].ProductDescription,
+			  UnitPrice: products[elem].UnitPrice,
+			  Quantity: products[elem].Quantity
+			}));
 
 	res.json(products);
 });
