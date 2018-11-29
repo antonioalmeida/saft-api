@@ -29,26 +29,28 @@ server.get('/sales/average-sales-value', (req, res) => {
 
 server.get('/sales/top-selling-products', (req, res) => {
 
-	let products = new Map();
+	let products = {};
 
 	let i = 0;
 	db.SalesInvoices.forEach((invoice) => {
 
 		const type = invoice.InvoiceType;
+		if(!(invoice.Line.length && (type == 'FT' || type == 'FS' || type == 'FR' || type == 'VD')))
+			return;
 
 		// Document type must be 'Fatura', 'Fatura Simplificada', 'Fatura Recibo' or 'Venda a Dinheiro'
-		if(invoice.Line.length && (type == 'FT' || type == 'FS' || type == 'VD'))
 			invoice.Line.forEach((line) => {
-				const { ProductDescription, Quantity } = line;
+				const { ProductCode, UnitPrice, ProductDescription, Quantity } = line;
 
-				if(products.has(ProductDescription))
-					products.set(ProductDescription, products.get(ProductDescription) + parseInt(Quantity));
-				else
-					products.set(ProductDescription, parseInt(Quantity));
+				if(products.hasOwnProperty(ProductCode)){
+					products[ProductCode].Quantity += parseInt(Quantity);
+				} else {
+					products[ProductCode] = { ProductDescription, UnitPrice, Quantity: parseInt(Quantity) };
+				}
 			});
 	});
 
-	res.json(strMapToObj(products));
+	res.json(products);
 });
 
 server.use(middlewares)
