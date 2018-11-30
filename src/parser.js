@@ -2,6 +2,21 @@ import parser from 'xml2json'
 import args from './index.js'
 import read from 'read-file'
 import writeFile from 'write'
+import shell from 'shelljs'
+
+if (shell.which('xmllint')) {
+	shell.echo('Validating file ' + args.source);
+	let ret = shell.exec('xmllint --noout --schema SAFTPT1.04_011.xsd ' + args.source);
+	if (ret.code !== 0) {
+		shell.echo('** XML is NOT valid **');
+	} else {
+		shell.echo('** XML is valid **');
+	}
+
+	// shell.exit(0); // Exit if XML is not valid ?
+} else {
+	shell.echo('XML Validation requires "xmllint".');
+}
 
 //Read and parse XML file contents
 read(args.source, (err, buffer) => {
