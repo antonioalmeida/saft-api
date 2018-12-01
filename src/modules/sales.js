@@ -137,5 +137,24 @@ module.exports = (server, db) => {
         res.json({totalNetSales: totalSales});
     });
 
+    server.get('/sales/daily-sales-volume', (req, res) => {
 
+        let dailySales = {};
+
+        db.SalesInvoices.forEach(invoice => {
+            const type = invoice.InvoiceType;
+            if (!(invoice.Line.length && (type == "FT" || type == "FS" || type == "FR" || type == "VD"))) return;
+
+            if (dailySales.hasOwnProperty(invoice.InvoiceDate)) {
+                dailySales[invoice.InvoiceDate].NetTotal += parseFloat(invoice.DocumentTotals.NetTotal);
+            } else {
+                let date = new Date(invoice.InvoiceDate);
+                let day = date.getDate();
+                dailySales[invoice.InvoiceDate] = { Day: day, Period: parseInt(invoice.Period), NetTotal: parseFloat(invoice.DocumentTotals.NetTotal) };
+            }
+        });
+
+        dailySales = Object.keys(dailySales).reduce((r, v, i, a, k = dailySales[v].Period) => ((r[k] || (r[k] = [])).push(dailySales[v]), r), {});
+        res.json(dailySales);
+    });
 };
