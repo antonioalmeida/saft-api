@@ -4,9 +4,7 @@ module.exports = (server, db) => {
 
         let products = {};
 
-        let i = 0;
         db.SalesInvoices.forEach((invoice) => {
-
             const type = invoice.InvoiceType;
             if (!(invoice.Line.length && (type == 'FT' || type == 'FS' || type == 'FR' || type == 'VD')))
                 return;
@@ -132,7 +130,11 @@ module.exports = (server, db) => {
             } else {
                 let date = new Date(invoice.InvoiceDate);
                 let day = date.getDate();
-                dailySales[invoice.InvoiceDate] = { Day: day, Period: parseInt(invoice.Period), NetTotal: parseFloat(invoice.DocumentTotals.NetTotal) };
+                dailySales[invoice.InvoiceDate] = {
+                    Day: day,
+                    Period: parseInt(invoice.Period),
+                    NetTotal: parseFloat(invoice.DocumentTotals.NetTotal)
+                };
             }
         });
 
