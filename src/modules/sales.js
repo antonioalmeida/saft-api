@@ -63,6 +63,26 @@ module.exports = (server, db) => {
         });
     });
 
+
+    server.get('/sales/total-orders-amount', (req, res) => {
+
+        let startDate = 'start-date' in req.query ? new Date(req.query['start-date']) : null;
+        let endDate = 'end-date' in req.query ? new Date(req.query['end-date']) : null;
+
+        let ordersAmount = 0;
+        db.SalesInvoices.forEach((invoice) => {
+            const type = invoice.InvoiceType;
+            if (!(invoice.Line.length && (type == 'FT' || type == 'FS' || type == 'FR' || type == 'VD')))
+                return;
+
+            let invoiceDate = new Date(invoice.InvoiceDate);
+            if ((startDate == null || startDate <= invoiceDate) && (endDate == null || invoiceDate <= endDate))
+                ordersAmount++;
+        });
+
+        res.json({totalOrdersAmount: ordersAmount});
+    });
+
     server.get('/sales/total-gross-sales', (req, res) => {
         let startDate = 'start-date' in req.query ? new Date(req.query['start-date']) : null;
         let endDate = 'end-date' in req.query ? new Date(req.query['end-date']) : null;
