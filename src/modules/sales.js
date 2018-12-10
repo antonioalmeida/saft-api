@@ -11,7 +11,12 @@ module.exports = (server, db) => {
 
             // Document type must be 'Fatura', 'Fatura Simplificada', 'Fatura Recibo' or 'Venda a Dinheiro'
             invoice.Line.forEach((line) => {
-                const {ProductCode, UnitPrice, ProductDescription, Quantity} = line;
+                const {
+                    ProductCode,
+                    UnitPrice,
+                    ProductDescription,
+                    Quantity
+                } = line;
 
                 if (products.hasOwnProperty(ProductCode)) {
                     products[ProductCode].Quantity += parseInt(Quantity);
@@ -47,13 +52,18 @@ module.exports = (server, db) => {
                 totalSales += parseFloat(invoice.DocumentTotals.TaxPayable);
         });
 
-        res.json({totalSales: totalSales});
+        res.json({
+            totalSales: totalSales
+        });
     });
 
-//Average sales value
+    //Average sales value
     server.get('/sales/average-sales-value', (req, res) => {
 
-        const {NumberOfEntries, TotalCredit} = db.SalesInvoicesInfo;
+        const {
+            NumberOfEntries,
+            TotalCredit
+        } = db.SalesInvoicesInfo;
         const averageSalesValue = TotalCredit / NumberOfEntries;
 
         res.jsonp({
@@ -78,7 +88,9 @@ module.exports = (server, db) => {
                 ordersAmount++;
         });
 
-        res.json({totalOrdersAmount: ordersAmount});
+        res.json({
+            totalOrdersAmount: ordersAmount
+        });
     });
 
     server.get('/sales/total-gross-sales', (req, res) => {
@@ -96,7 +108,9 @@ module.exports = (server, db) => {
                 totalSales += parseFloat(invoice.DocumentTotals.GrossTotal);
         });
 
-        res.json({totalGrossSales: totalSales});
+        res.json({
+            totalGrossSales: totalSales
+        });
     });
 
     server.get('/sales/total-net-sales', (req, res) => {
@@ -114,7 +128,9 @@ module.exports = (server, db) => {
                 totalSales += parseFloat(invoice.DocumentTotals.NetTotal);
         });
 
-        res.json({totalNetSales: totalSales});
+        res.json({
+            totalNetSales: totalSales
+        });
     });
 
     server.get('/sales/daily-sales-volume', (req, res) => {
@@ -140,5 +156,36 @@ module.exports = (server, db) => {
 
         dailySales = Object.keys(dailySales).reduce((r, v, i, a, k = dailySales[v].Period) => ((r[k] || (r[k] = [])).push(dailySales[v]), r), {});
         res.json(dailySales);
+    });
+
+    server.get('/sales/top-sales', (req, res) => {
+        let startDate = 'start-date' in req.query ? new Date(req.query['start-date']) : null;
+        let endDate = 'end-date' in req.query ? new Date(req.query['end-date']) : null;
+
+        let sales = [];
+
+        db.SalesInvoices.forEach((invoice) => {
+            let invoiceDate = new Date(invoice.InvoiceDate);
+            if (invoice.Line.length && (startDate == null || startDate <= invoiceDate) && (endDate == null || invoiceDate <= endDate)) {
+
+                let products = [];
+                invoice.Line.forEach((product) => {
+                    products.push({
+                        Code: product.ProductCode,
+                        Description: product.ProductDescription,
+                        UnitPrice: product.UnitPrice,
+                        Quantity: product.Quantity
+                    });
+                });
+
+                sales.push({
+                    NetTotal: invoice.DocumentTotals.NetTotal,
+                    GrossTotal: invoice.DocumentTotals.GrossTotal,
+                    Products: products
+                });
+            }
+        });
+
+        res.json(sales.sort((a, b) => b.NetTotal - a.NetTotal));
     });
 };
