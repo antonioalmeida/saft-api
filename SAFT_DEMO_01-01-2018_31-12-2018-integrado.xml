@@ -5,7 +5,7 @@
     <CompanyID>503140600</CompanyID>
     <TaxRegistrationNumber>503140600</TaxRegistrationNumber>
     <TaxAccountingBasis>I</TaxAccountingBasis>
-    <CompanyName>Empresa de demonstração (PRIVA)</CompanyName>
+    <CompanyName>Empresa de demonstraï¿½ï¿½o (PRIVA)</CompanyName>
     <CompanyAddress>
       <StreetName>Rua Dr Roberto Frias</StreetName>
       <AddressDetail>Rua Dr Roberto Frias</AddressDetail>
@@ -70,7 +70,7 @@
       <CustomerID>AO823892388_C</CustomerID>
       <AccountID>21113001</AccountID>
       <CustomerTaxID>823892388</CustomerTaxID>
-      <CompanyName>Inforshow, Informática Comunicação</CompanyName>
+      <CompanyName>Inforshow, Informï¿½tica Comunicaï¿½ï¿½o</CompanyName>
       <BillingAddress>
         <AddressDetail>Av. dos Coqueiros, 464646</AddressDetail>
         <City>Luanda</City>
@@ -91,7 +91,7 @@
       <CustomerID>PT505678900_C</CustomerID>
       <AccountID>21111003</AccountID>
       <CustomerTaxID>505678900</CustomerTaxID>
-      <CompanyName>José Maria Fernandes &amp; Filhos, Lda.</CompanyName>
+      <CompanyName>Josï¿½ Maria Fernandes &amp; Filhos, Lda.</CompanyName>
       <BillingAddress>
         <AddressDetail>Av. do Norte, 484848</AddressDetail>
         <City>Desconhecido</City>
@@ -179,13 +179,13 @@
       <SupplierTaxID>583140688</SupplierTaxID>
       <CompanyName>Publicidade &amp; Marrketing</CompanyName>
       <BillingAddress>
-        <AddressDetail>Av. das Inovações, 4654765</AddressDetail>
+        <AddressDetail>Av. das Inovaï¿½ï¿½es, 4654765</AddressDetail>
         <City>Desconhecido</City>
         <PostalCode>4000</PostalCode>
         <Country>PT</Country>
       </BillingAddress>
       <ShipFromAddress>
-        <AddressDetail>Av. das Inovações, 4654765</AddressDetail>
+        <AddressDetail>Av. das Inovaï¿½ï¿½es, 4654765</AddressDetail>
         <City>Desconhecido</City>
         <PostalCode>4000</PostalCode>
         <Country>PT</Country>
@@ -232,43 +232,43 @@
     <Product>
       <ProductType>O</ProductType>
       <ProductCode>Especial</ProductCode>
-      <ProductGroup>Sem família</ProductGroup>
+      <ProductGroup>Sem famï¿½lia</ProductGroup>
       <ProductDescription>Linha especial</ProductDescription>
       <ProductNumberCode>Especial</ProductNumberCode>
     </Product>
     <Product>
       <ProductType>S</ProductType>
       <ProductCode>F0003</ProductCode>
-      <ProductGroup>Serviços</ProductGroup>
-      <ProductDescription>Serviços de Implementação</ProductDescription>
+      <ProductGroup>Serviï¿½os</ProductGroup>
+      <ProductDescription>Serviï¿½os de Implementaï¿½ï¿½o</ProductDescription>
       <ProductNumberCode>F0003</ProductNumberCode>
     </Product>
     <Product>
       <ProductType>P</ProductType>
       <ProductCode>GAR001</ProductCode>
-      <ProductGroup>Bebidas Alcoólicas</ProductGroup>
+      <ProductGroup>Bebidas Alcoï¿½licas</ProductGroup>
       <ProductDescription>Grarrafa de Whisky 15 anos B&amp;A</ProductDescription>
       <ProductNumberCode>GAR001</ProductNumberCode>
     </Product>
     <Product>
       <ProductType>P</ProductType>
       <ProductCode>GAR009</ProductCode>
-      <ProductGroup>Bebidas Alcoólicas</ProductGroup>
+      <ProductGroup>Bebidas Alcoï¿½licas</ProductGroup>
       <ProductDescription>Garrafa Bagaceira Regional - Caves Altas</ProductDescription>
       <ProductNumberCode>GAR009</ProductNumberCode>
     </Product>
     <Product>
       <ProductType>P</ProductType>
       <ProductCode>GAR027</ProductCode>
-      <ProductGroup>Bebidas Alcoólicas</ProductGroup>
+      <ProductGroup>Bebidas Alcoï¿½licas</ProductGroup>
       <ProductDescription>Vinho do Porto Vintage/1994 - Gold Grapes</ProductDescription>
       <ProductNumberCode>GAR027</ProductNumberCode>
     </Product>
     <Product>
       <ProductType>S</ProductType>
       <ProductCode>M0001</ProductCode>
-      <ProductGroup>Sem família</ProductGroup>
-      <ProductDescription>Técnico de Assemblagem de Hardware</ProductDescription>
+      <ProductGroup>Sem famï¿½lia</ProductGroup>
+      <ProductDescription>Tï¿½cnico de Assemblagem de Hardware</ProductDescription>
       <ProductNumberCode>M0001</ProductNumberCode>
     </Product>
     <TaxTable>
@@ -311,7 +311,7 @@
         <TaxType>IVA</TaxType>
         <TaxCountryRegion>PT</TaxCountryRegion>
         <TaxCode>INT</TaxCode>
-        <Description>Intermédia</Description>
+        <Description>Intermï¿½dia</Description>
         <TaxPercentage>12.00</TaxPercentage>
       </TaxTableEntry>
       <TaxTableEntry>
@@ -374,7 +374,7 @@
         <TaxType>IVA</TaxType>
         <TaxCountryRegion>PT-AC</TaxCountryRegion>
         <TaxCode>INT</TaxCode>
-        <Description>Intermédia</Description>
+        <Description>Intermï¿½dia</Description>
         <TaxPercentage>9.00</TaxPercentage>
       </TaxTableEntry>
       <TaxTableEntry>
@@ -402,7 +402,7 @@
         <TaxType>IVA</TaxType>
         <TaxCountryRegion>PT-MA</TaxCountryRegion>
         <TaxCode>INT</TaxCode>
-        <Description>Intermédia</Description>
+        <Description>Intermï¿½dia</Description>
         <TaxPercentage>12.00</TaxPercentage>
       </TaxTableEntry>
       <TaxTableEntry>
@@ -459,13 +459,13 @@
     </Journal>
     <Journal>
       <JournalID>00031</JournalID>
-      <Description>Bancos - Depósitos</Description>
+      <Description>Bancos - Depï¿½sitos</Description>
       <Transaction>
         <TransactionID>2018-01-16 00031 10002</TransactionID>
         <Period>1</Period>
         <TransactionDate>2018-01-16</TransactionDate>
         <SourceID>eugenio.veiga</SourceID>
-        <Description>RE N.º2/2</Description>
+        <Description>RE N.ï¿½2/2</Description>
         <DocArchivalNumber>10002</DocArchivalNumber>
         <TransactionType>N</TransactionType>
         <GLPostingDate>2018-10-17</GLPostingDate>
@@ -475,7 +475,7 @@
             <AccountID>112</AccountID>
             <SourceDocumentID>RE 2/2</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>RE Nº 5/A</Description>
+            <Description>RE Nï¿½ 5/A</Description>
             <DebitAmount>352.10</DebitAmount>
           </DebitLine>
           <CreditLine>
@@ -483,7 +483,7 @@
             <AccountID>21111001</AccountID>
             <SourceDocumentID>RE 2/2</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>RE Nº 5/A</Description>
+            <Description>RE Nï¿½ 5/A</Description>
             <CreditAmount>352.10</CreditAmount>
           </CreditLine>
         </Lines>
@@ -493,7 +493,7 @@
         <Period>1</Period>
         <TransactionDate>2018-01-30</TransactionDate>
         <SourceID>eugenio.veiga</SourceID>
-        <Description>RE N.º1/2</Description>
+        <Description>RE N.ï¿½1/2</Description>
         <DocArchivalNumber>10001</DocArchivalNumber>
         <TransactionType>N</TransactionType>
         <GLPostingDate>2018-10-17</GLPostingDate>
@@ -503,7 +503,7 @@
             <AccountID>112</AccountID>
             <SourceDocumentID>RE 2/1</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>RE Nº 4/A</Description>
+            <Description>RE Nï¿½ 4/A</Description>
             <DebitAmount>850.57</DebitAmount>
           </DebitLine>
           <CreditLine>
@@ -511,7 +511,7 @@
             <AccountID>21111001</AccountID>
             <SourceDocumentID>RE 2/1</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>RE Nº 4/A</Description>
+            <Description>RE Nï¿½ 4/A</Description>
             <CreditAmount>850.57</CreditAmount>
           </CreditLine>
         </Lines>
@@ -521,7 +521,7 @@
         <Period>3</Period>
         <TransactionDate>2018-03-25</TransactionDate>
         <SourceID>lucia.ribeiro</SourceID>
-        <Description>RE N.º6/A</Description>
+        <Description>RE N.ï¿½6/A</Description>
         <DocArchivalNumber>30001</DocArchivalNumber>
         <TransactionType>N</TransactionType>
         <GLPostingDate>2018-10-17</GLPostingDate>
@@ -531,7 +531,7 @@
             <AccountID>112</AccountID>
             <SourceDocumentID>RE A/6</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>RE Nº 6/A</Description>
+            <Description>RE Nï¿½ 6/A</Description>
             <DebitAmount>123.42</DebitAmount>
           </DebitLine>
           <CreditLine>
@@ -539,7 +539,7 @@
             <AccountID>21111001</AccountID>
             <SourceDocumentID>RE A/6</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>RE Nº 6/A</Description>
+            <Description>RE Nï¿½ 6/A</Description>
             <CreditAmount>123.42</CreditAmount>
           </CreditLine>
         </Lines>
@@ -549,7 +549,7 @@
         <Period>6</Period>
         <TransactionDate>2018-06-12</TransactionDate>
         <SourceID>lucia.ribeiro</SourceID>
-        <Description>MOV N.º21/2</Description>
+        <Description>MOV N.ï¿½21/2</Description>
         <DocArchivalNumber>60002</DocArchivalNumber>
         <TransactionType>N</TransactionType>
         <GLPostingDate>2018-10-17</GLPostingDate>
@@ -559,7 +559,7 @@
             <AccountID>1201</AccountID>
             <SourceDocumentID>MOV 2/21</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>MOV Nº 40/A</Description>
+            <Description>MOV Nï¿½ 40/A</Description>
             <CreditAmount>1000.00</CreditAmount>
           </CreditLine>
         </Lines>
@@ -577,7 +577,7 @@
         <Period>1</Period>
         <TransactionDate>2018-01-29</TransactionDate>
         <SourceID>lucia.ribeiro</SourceID>
-        <Description>VFA N.º9/A</Description>
+        <Description>VFA N.ï¿½9/A</Description>
         <DocArchivalNumber>10002</DocArchivalNumber>
         <TransactionType>N</TransactionType>
         <GLPostingDate>2018-10-17</GLPostingDate>
@@ -587,7 +587,7 @@
             <AccountID>22111002</AccountID>
             <SourceDocumentID>VFA A/9</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>VFA Nº 9/A</Description>
+            <Description>VFA Nï¿½ 9/A</Description>
             <CreditAmount>6693.81</CreditAmount>
           </CreditLine>
           <DebitLine>
@@ -595,7 +595,7 @@
             <AccountID>24321132111</AccountID>
             <SourceDocumentID>VFA A/9</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>VFA Nº 9/A</Description>
+            <Description>VFA Nï¿½ 9/A</Description>
             <DebitAmount>252.00</DebitAmount>
           </DebitLine>
           <DebitLine>
@@ -603,7 +603,7 @@
             <AccountID>24321132111</AccountID>
             <SourceDocumentID>VFA A/9</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>VFA Nº 9/A</Description>
+            <Description>VFA Nï¿½ 9/A</Description>
             <DebitAmount>909.75</DebitAmount>
           </DebitLine>
           <DebitLine>
@@ -611,7 +611,7 @@
             <AccountID>3121</AccountID>
             <SourceDocumentID>VFA A/9</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>VFA Nº 9/A</Description>
+            <Description>VFA Nï¿½ 9/A</Description>
             <DebitAmount>1200.00</DebitAmount>
           </DebitLine>
           <DebitLine>
@@ -619,7 +619,7 @@
             <AccountID>3121</AccountID>
             <SourceDocumentID>VFA A/9</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>VFA Nº 9/A</Description>
+            <Description>VFA Nï¿½ 9/A</Description>
             <DebitAmount>4332.06</DebitAmount>
           </DebitLine>
         </Lines>
@@ -629,7 +629,7 @@
         <Period>1</Period>
         <TransactionDate>2018-01-30</TransactionDate>
         <SourceID>Administrador</SourceID>
-        <Description>VFA N.º3/A</Description>
+        <Description>VFA N.ï¿½3/A</Description>
         <DocArchivalNumber>10003</DocArchivalNumber>
         <TransactionType>N</TransactionType>
         <GLPostingDate>2018-10-17</GLPostingDate>
@@ -639,7 +639,7 @@
             <AccountID>22111001</AccountID>
             <SourceDocumentID>VFA A/3</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>VFA Nº 10/A</Description>
+            <Description>VFA Nï¿½ 10/A</Description>
             <CreditAmount>10324.67</CreditAmount>
           </CreditLine>
           <DebitLine>
@@ -647,7 +647,7 @@
             <AccountID>24321132111</AccountID>
             <SourceDocumentID>VFA A/3</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>VFA Nº 10/A</Description>
+            <Description>VFA Nï¿½ 10/A</Description>
             <DebitAmount>1791.97</DebitAmount>
           </DebitLine>
           <DebitLine>
@@ -655,7 +655,7 @@
             <AccountID>3121</AccountID>
             <SourceDocumentID>VFA A/3</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>VFA Nº 10/A</Description>
+            <Description>VFA Nï¿½ 10/A</Description>
             <DebitAmount>8532.70</DebitAmount>
           </DebitLine>
         </Lines>
@@ -665,7 +665,7 @@
         <Period>2</Period>
         <TransactionDate>2018-02-22</TransactionDate>
         <SourceID>lucia.ribeiro</SourceID>
-        <Description>VFP N.º1/A</Description>
+        <Description>VFP N.ï¿½1/A</Description>
         <DocArchivalNumber>20001</DocArchivalNumber>
         <TransactionType>N</TransactionType>
         <GLPostingDate>2018-10-17</GLPostingDate>
@@ -675,7 +675,7 @@
             <AccountID>22111001</AccountID>
             <SourceDocumentID>VFP A/1</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>VFP Nº 1/A</Description>
+            <Description>VFP Nï¿½ 1/A</Description>
             <CreditAmount>4613.58</CreditAmount>
           </CreditLine>
           <DebitLine>
@@ -683,7 +683,7 @@
             <AccountID>24321132111</AccountID>
             <SourceDocumentID>VFP A/1</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>VFP Nº 1/A</Description>
+            <Description>VFP Nï¿½ 1/A</Description>
             <DebitAmount>800.70</DebitAmount>
           </DebitLine>
           <DebitLine>
@@ -691,7 +691,7 @@
             <AccountID>31611</AccountID>
             <SourceDocumentID>VFP A/1</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>VFP Nº 1/A</Description>
+            <Description>VFP Nï¿½ 1/A</Description>
             <DebitAmount>3812.88</DebitAmount>
           </DebitLine>
           <CreditLine>
@@ -699,7 +699,7 @@
             <AccountID>31961</AccountID>
             <SourceDocumentID>VFP A/1</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>VFP Nº 1/A</Description>
+            <Description>VFP Nï¿½ 1/A</Description>
             <CreditAmount>3812.88</CreditAmount>
           </CreditLine>
           <DebitLine>
@@ -707,7 +707,7 @@
             <AccountID>3612</AccountID>
             <SourceDocumentID>VFP A/1</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>VFP Nº 1/A</Description>
+            <Description>VFP Nï¿½ 1/A</Description>
             <DebitAmount>3812.88</DebitAmount>
           </DebitLine>
         </Lines>
@@ -717,7 +717,7 @@
         <Period>4</Period>
         <TransactionDate>2018-04-24</TransactionDate>
         <SourceID>lucia.ribeiro</SourceID>
-        <Description>VFA N.º6/2</Description>
+        <Description>VFA N.ï¿½6/2</Description>
         <DocArchivalNumber>40001</DocArchivalNumber>
         <TransactionType>N</TransactionType>
         <GLPostingDate>2018-10-17</GLPostingDate>
@@ -727,7 +727,7 @@
             <AccountID>22111001</AccountID>
             <SourceDocumentID>VFA 2/6</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>VFA Nº 13/A</Description>
+            <Description>VFA Nï¿½ 13/A</Description>
             <CreditAmount>523.02</CreditAmount>
           </CreditLine>
           <DebitLine>
@@ -735,7 +735,7 @@
             <AccountID>24321132111</AccountID>
             <SourceDocumentID>VFA 2/6</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>VFA Nº 13/A</Description>
+            <Description>VFA Nï¿½ 13/A</Description>
             <DebitAmount>90.77</DebitAmount>
           </DebitLine>
           <DebitLine>
@@ -743,7 +743,7 @@
             <AccountID>3121</AccountID>
             <SourceDocumentID>VFA 2/6</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>VFA Nº 13/A</Description>
+            <Description>VFA Nï¿½ 13/A</Description>
             <DebitAmount>432.25</DebitAmount>
           </DebitLine>
         </Lines>
@@ -753,7 +753,7 @@
         <Period>4</Period>
         <TransactionDate>2018-04-30</TransactionDate>
         <SourceID>Administrador</SourceID>
-        <Description>VNC N.º2/A</Description>
+        <Description>VNC N.ï¿½2/A</Description>
         <DocArchivalNumber>40002</DocArchivalNumber>
         <TransactionType>N</TransactionType>
         <GLPostingDate>2018-10-17</GLPostingDate>
@@ -763,7 +763,7 @@
             <AccountID>22111001</AccountID>
             <SourceDocumentID>VNC A/2</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>+VNC Nº 2/A+</Description>
+            <Description>+VNC Nï¿½ 2/A+</Description>
             <DebitAmount>523.02</DebitAmount>
           </DebitLine>
           <CreditLine>
@@ -771,7 +771,7 @@
             <AccountID>24321132111</AccountID>
             <SourceDocumentID>VNC A/2</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>+VNC Nº 2/A+</Description>
+            <Description>+VNC Nï¿½ 2/A+</Description>
             <CreditAmount>90.77</CreditAmount>
           </CreditLine>
           <CreditLine>
@@ -779,7 +779,7 @@
             <AccountID>3121</AccountID>
             <SourceDocumentID>VNC A/2</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>+VNC Nº 2/A+</Description>
+            <Description>+VNC Nï¿½ 2/A+</Description>
             <CreditAmount>432.25</CreditAmount>
           </CreditLine>
         </Lines>
@@ -789,7 +789,7 @@
         <Period>5</Period>
         <TransactionDate>2018-05-22</TransactionDate>
         <SourceID>Administrador</SourceID>
-        <Description>VFA N.º14/A</Description>
+        <Description>VFA N.ï¿½14/A</Description>
         <DocArchivalNumber>50001</DocArchivalNumber>
         <TransactionType>N</TransactionType>
         <GLPostingDate>2018-10-17</GLPostingDate>
@@ -799,7 +799,7 @@
             <AccountID>24321132111</AccountID>
             <SourceDocumentID>VFA A/14</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>VFA Nº 14/A</Description>
+            <Description>VFA Nï¿½ 14/A</Description>
             <DebitAmount>764.40</DebitAmount>
           </DebitLine>
           <DebitLine>
@@ -807,7 +807,7 @@
             <AccountID>3121</AccountID>
             <SourceDocumentID>VFA A/14</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>VFA Nº 14/A</Description>
+            <Description>VFA Nï¿½ 14/A</Description>
             <DebitAmount>3640.00</DebitAmount>
           </DebitLine>
           <CreditLine>
@@ -815,7 +815,7 @@
             <AccountID>22111001</AccountID>
             <SourceDocumentID>VFA A/14</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>VFA Nº 14/A</Description>
+            <Description>VFA Nï¿½ 14/A</Description>
             <CreditAmount>4404.40</CreditAmount>
           </CreditLine>
         </Lines>
@@ -825,7 +825,7 @@
         <Period>6</Period>
         <TransactionDate>2018-06-27</TransactionDate>
         <SourceID>Administrador</SourceID>
-        <Description>VFA N.º15/A</Description>
+        <Description>VFA N.ï¿½15/A</Description>
         <DocArchivalNumber>60001</DocArchivalNumber>
         <TransactionType>N</TransactionType>
         <GLPostingDate>2018-10-17</GLPostingDate>
@@ -835,7 +835,7 @@
             <AccountID>24321132011</AccountID>
             <SourceDocumentID>VFA A/15</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>VFA Nº 15/A</Description>
+            <Description>VFA Nï¿½ 15/A</Description>
             <DebitAmount>29.93</DebitAmount>
           </DebitLine>
           <DebitLine>
@@ -843,7 +843,7 @@
             <AccountID>3121</AccountID>
             <SourceDocumentID>VFA A/15</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>VFA Nº 15/A</Description>
+            <Description>VFA Nï¿½ 15/A</Description>
             <DebitAmount>149.64</DebitAmount>
           </DebitLine>
           <CreditLine>
@@ -851,7 +851,7 @@
             <AccountID>22111001</AccountID>
             <SourceDocumentID>VFA A/15</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>VFA Nº 15/A</Description>
+            <Description>VFA Nï¿½ 15/A</Description>
             <CreditAmount>179.57</CreditAmount>
           </CreditLine>
         </Lines>
@@ -861,7 +861,7 @@
         <Period>11</Period>
         <TransactionDate>2018-11-23</TransactionDate>
         <SourceID>lucia.ribeiro</SourceID>
-        <Description>VFP N.º2/A</Description>
+        <Description>VFP N.ï¿½2/A</Description>
         <DocArchivalNumber>110001</DocArchivalNumber>
         <TransactionType>N</TransactionType>
         <GLPostingDate>2018-10-17</GLPostingDate>
@@ -871,7 +871,7 @@
             <AccountID>22111005</AccountID>
             <SourceDocumentID>VFP A/2</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>VFP Nº 2/A</Description>
+            <Description>VFP Nï¿½ 2/A</Description>
             <CreditAmount>37.75</CreditAmount>
           </CreditLine>
           <DebitLine>
@@ -879,7 +879,7 @@
             <AccountID>24321132111</AccountID>
             <SourceDocumentID>VFP A/2</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>VFP Nº 2/A</Description>
+            <Description>VFP Nï¿½ 2/A</Description>
             <DebitAmount>6.55</DebitAmount>
           </DebitLine>
           <DebitLine>
@@ -887,7 +887,7 @@
             <AccountID>31611</AccountID>
             <SourceDocumentID>VFP A/2</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>VFP Nº 2/A</Description>
+            <Description>VFP Nï¿½ 2/A</Description>
             <DebitAmount>31.20</DebitAmount>
           </DebitLine>
           <CreditLine>
@@ -895,7 +895,7 @@
             <AccountID>31961</AccountID>
             <SourceDocumentID>VFP A/2</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>VFP Nº 2/A</Description>
+            <Description>VFP Nï¿½ 2/A</Description>
             <CreditAmount>31.20</CreditAmount>
           </CreditLine>
           <DebitLine>
@@ -903,7 +903,7 @@
             <AccountID>3612</AccountID>
             <SourceDocumentID>VFP A/2</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>VFP Nº 2/A</Description>
+            <Description>VFP Nï¿½ 2/A</Description>
             <DebitAmount>31.20</DebitAmount>
           </DebitLine>
         </Lines>
@@ -911,13 +911,13 @@
     </Journal>
     <Journal>
       <JournalID>00051</JournalID>
-      <Description>Vendas - Crédito - MN</Description>
+      <Description>Vendas - Crï¿½dito - MN</Description>
       <Transaction>
         <TransactionID>2018-01-19 00051 10001</TransactionID>
         <Period>1</Period>
         <TransactionDate>2018-01-19</TransactionDate>
         <SourceID>lucia.ribeiro</SourceID>
-        <Description>FA N.º15/A</Description>
+        <Description>FA N.ï¿½15/A</Description>
         <DocArchivalNumber>10001</DocArchivalNumber>
         <TransactionType>N</TransactionType>
         <GLPostingDate>2018-10-17</GLPostingDate>
@@ -927,7 +927,7 @@
             <AccountID>21123004</AccountID>
             <SourceDocumentID>FA A/15</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>FA Nº 15/A</Description>
+            <Description>FA Nï¿½ 15/A</Description>
             <DebitAmount>13016.00</DebitAmount>
           </DebitLine>
           <CreditLine>
@@ -935,7 +935,7 @@
             <AccountID>24331113211</AccountID>
             <SourceDocumentID>FA A/15</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>FA Nº 15/A</Description>
+            <Description>FA Nï¿½ 15/A</Description>
             <CreditAmount>2259.00</CreditAmount>
           </CreditLine>
           <CreditLine>
@@ -943,7 +943,7 @@
             <AccountID>7111</AccountID>
             <SourceDocumentID>FA A/15</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>FA Nº 15/A</Description>
+            <Description>FA Nï¿½ 15/A</Description>
             <CreditAmount>10757.00</CreditAmount>
           </CreditLine>
         </Lines>
@@ -953,7 +953,7 @@
         <Period>1</Period>
         <TransactionDate>2018-01-20</TransactionDate>
         <SourceID>lucia.ribeiro</SourceID>
-        <Description>FA N.º16/A</Description>
+        <Description>FA N.ï¿½16/A</Description>
         <DocArchivalNumber>10002</DocArchivalNumber>
         <TransactionType>N</TransactionType>
         <GLPostingDate>2018-10-17</GLPostingDate>
@@ -963,7 +963,7 @@
             <AccountID>21111001</AccountID>
             <SourceDocumentID>FA A/16</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>FA Nº 16/A</Description>
+            <Description>FA Nï¿½ 16/A</Description>
             <DebitAmount>603.79</DebitAmount>
           </DebitLine>
           <CreditLine>
@@ -971,7 +971,7 @@
             <AccountID>24331113211</AccountID>
             <SourceDocumentID>FA A/16</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>FA Nº 16/A</Description>
+            <Description>FA Nï¿½ 16/A</Description>
             <CreditAmount>104.79</CreditAmount>
           </CreditLine>
           <CreditLine>
@@ -979,7 +979,7 @@
             <AccountID>7111</AccountID>
             <SourceDocumentID>FA A/16</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>FA Nº 16/A</Description>
+            <Description>FA Nï¿½ 16/A</Description>
             <CreditAmount>499.00</CreditAmount>
           </CreditLine>
         </Lines>
@@ -989,7 +989,7 @@
         <Period>1</Period>
         <TransactionDate>2018-01-25</TransactionDate>
         <SourceID>lucia.ribeiro</SourceID>
-        <Description>FA N.º17/A</Description>
+        <Description>FA N.ï¿½17/A</Description>
         <DocArchivalNumber>10003</DocArchivalNumber>
         <TransactionType>N</TransactionType>
         <GLPostingDate>2018-10-17</GLPostingDate>
@@ -999,7 +999,7 @@
             <AccountID>21111003</AccountID>
             <SourceDocumentID>FA A/17</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>FA Nº 17/A</Description>
+            <Description>FA Nï¿½ 17/A</Description>
             <DebitAmount>2511.98</DebitAmount>
           </DebitLine>
           <CreditLine>
@@ -1007,7 +1007,7 @@
             <AccountID>24331113211</AccountID>
             <SourceDocumentID>FA A/17</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>FA Nº 17/A</Description>
+            <Description>FA Nï¿½ 17/A</Description>
             <CreditAmount>435.98</CreditAmount>
           </CreditLine>
           <CreditLine>
@@ -1015,7 +1015,7 @@
             <AccountID>7111</AccountID>
             <SourceDocumentID>FA A/17</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>FA Nº 17/A</Description>
+            <Description>FA Nï¿½ 17/A</Description>
             <CreditAmount>2076.00</CreditAmount>
           </CreditLine>
         </Lines>
@@ -1025,7 +1025,7 @@
         <Period>1</Period>
         <TransactionDate>2018-01-30</TransactionDate>
         <SourceID>teste</SourceID>
-        <Description>FA N.º18/A</Description>
+        <Description>FA N.ï¿½18/A</Description>
         <DocArchivalNumber>10004</DocArchivalNumber>
         <TransactionType>N</TransactionType>
         <GLPostingDate>2018-10-17</GLPostingDate>
@@ -1035,7 +1035,7 @@
             <AccountID>21111001</AccountID>
             <SourceDocumentID>FA A/18</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>FA Nº 18/A</Description>
+            <Description>FA Nï¿½ 18/A</Description>
             <DebitAmount>3480.67</DebitAmount>
           </DebitLine>
           <CreditLine>
@@ -1043,7 +1043,7 @@
             <AccountID>24331213211</AccountID>
             <SourceDocumentID>FA A/18</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>FA Nº 18/A</Description>
+            <Description>FA Nï¿½ 18/A</Description>
             <CreditAmount>50.94</CreditAmount>
           </CreditLine>
           <CreditLine>
@@ -1051,7 +1051,7 @@
             <AccountID>24331113211</AccountID>
             <SourceDocumentID>FA A/18</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>FA Nº 18/A</Description>
+            <Description>FA Nï¿½ 18/A</Description>
             <CreditAmount>553.14</CreditAmount>
           </CreditLine>
           <CreditLine>
@@ -1059,7 +1059,7 @@
             <AccountID>7211</AccountID>
             <SourceDocumentID>FA A/18</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>FA Nº 18/A</Description>
+            <Description>FA Nï¿½ 18/A</Description>
             <CreditAmount>242.59</CreditAmount>
           </CreditLine>
           <CreditLine>
@@ -1067,7 +1067,7 @@
             <AccountID>7111</AccountID>
             <SourceDocumentID>FA A/18</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>FA Nº 18/A</Description>
+            <Description>FA Nï¿½ 18/A</Description>
             <CreditAmount>2634.00</CreditAmount>
           </CreditLine>
         </Lines>
@@ -1077,7 +1077,7 @@
         <Period>2</Period>
         <TransactionDate>2018-02-10</TransactionDate>
         <SourceID>lucia.ribeiro</SourceID>
-        <Description>FA N.º19/A</Description>
+        <Description>FA N.ï¿½19/A</Description>
         <DocArchivalNumber>20001</DocArchivalNumber>
         <TransactionType>N</TransactionType>
         <GLPostingDate>2018-10-17</GLPostingDate>
@@ -1087,7 +1087,7 @@
             <AccountID>21113006</AccountID>
             <SourceDocumentID>FA A/19</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>FA Nº 19/A</Description>
+            <Description>FA Nï¿½ 19/A</Description>
             <DebitAmount>2837.40</DebitAmount>
           </DebitLine>
           <CreditLine>
@@ -1095,7 +1095,7 @@
             <AccountID>24331113211</AccountID>
             <SourceDocumentID>FA A/19</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>FA Nº 19/A</Description>
+            <Description>FA Nï¿½ 19/A</Description>
             <CreditAmount>492.44</CreditAmount>
           </CreditLine>
           <CreditLine>
@@ -1103,7 +1103,7 @@
             <AccountID>7111</AccountID>
             <SourceDocumentID>FA A/19</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>FA Nº 19/A</Description>
+            <Description>FA Nï¿½ 19/A</Description>
             <CreditAmount>2344.96</CreditAmount>
           </CreditLine>
         </Lines>
@@ -1113,7 +1113,7 @@
         <Period>2</Period>
         <TransactionDate>2018-02-24</TransactionDate>
         <SourceID>lucia.ribeiro</SourceID>
-        <Description>FA N.º20/A</Description>
+        <Description>FA N.ï¿½20/A</Description>
         <DocArchivalNumber>20002</DocArchivalNumber>
         <TransactionType>N</TransactionType>
         <GLPostingDate>2018-10-17</GLPostingDate>
@@ -1124,7 +1124,7 @@
             <AccountID>21113001</AccountID>
             <SourceDocumentID>FA A/20</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>FA Nº 20/A</Description>
+            <Description>FA Nï¿½ 20/A</Description>
             <DebitAmount>1781.70</DebitAmount>
           </DebitLine>
           <CreditLine>
@@ -1132,7 +1132,7 @@
             <AccountID>24331213211</AccountID>
             <SourceDocumentID>FA A/20</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>FA Nº 20/A</Description>
+            <Description>FA Nï¿½ 20/A</Description>
             <CreditAmount>63.00</CreditAmount>
           </CreditLine>
           <CreditLine>
@@ -1140,7 +1140,7 @@
             <AccountID>24331113211</AccountID>
             <SourceDocumentID>FA A/20</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>FA Nº 20/A</Description>
+            <Description>FA Nï¿½ 20/A</Description>
             <CreditAmount>246.22</CreditAmount>
           </CreditLine>
           <CreditLine>
@@ -1148,7 +1148,7 @@
             <AccountID>7211</AccountID>
             <SourceDocumentID>FA A/20</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>FA Nº 20/A</Description>
+            <Description>FA Nï¿½ 20/A</Description>
             <CreditAmount>300.00</CreditAmount>
           </CreditLine>
           <CreditLine>
@@ -1156,7 +1156,7 @@
             <AccountID>7111</AccountID>
             <SourceDocumentID>FA A/20</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>FA Nº 20/A</Description>
+            <Description>FA Nï¿½ 20/A</Description>
             <CreditAmount>1172.48</CreditAmount>
           </CreditLine>
         </Lines>
@@ -1166,7 +1166,7 @@
         <Period>3</Period>
         <TransactionDate>2018-03-10</TransactionDate>
         <SourceID>lucia.ribeiro</SourceID>
-        <Description>FA N.º21/A</Description>
+        <Description>FA N.ï¿½21/A</Description>
         <DocArchivalNumber>30001</DocArchivalNumber>
         <TransactionType>N</TransactionType>
         <GLPostingDate>2018-10-17</GLPostingDate>
@@ -1176,7 +1176,7 @@
             <AccountID>21111001</AccountID>
             <SourceDocumentID>FA A/21</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>FA Nº 21/A</Description>
+            <Description>FA Nï¿½ 21/A</Description>
             <DebitAmount>2175.66</DebitAmount>
           </DebitLine>
           <CreditLine>
@@ -1184,7 +1184,7 @@
             <AccountID>24331113211</AccountID>
             <SourceDocumentID>FA A/21</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>FA Nº 21/A</Description>
+            <Description>FA Nï¿½ 21/A</Description>
             <CreditAmount>377.59</CreditAmount>
           </CreditLine>
           <CreditLine>
@@ -1192,7 +1192,7 @@
             <AccountID>7111</AccountID>
             <SourceDocumentID>FA A/21</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>FA Nº 21/A</Description>
+            <Description>FA Nï¿½ 21/A</Description>
             <CreditAmount>1798.07</CreditAmount>
           </CreditLine>
         </Lines>
@@ -1202,7 +1202,7 @@
         <Period>4</Period>
         <TransactionDate>2018-04-30</TransactionDate>
         <SourceID>Administrador</SourceID>
-        <Description>FA N.º22/A</Description>
+        <Description>FA N.ï¿½22/A</Description>
         <DocArchivalNumber>40001</DocArchivalNumber>
         <TransactionType>N</TransactionType>
         <GLPostingDate>2018-10-17</GLPostingDate>
@@ -1212,7 +1212,7 @@
             <AccountID>7111</AccountID>
             <SourceDocumentID>FA A/22</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>FA Nº 22/A</Description>
+            <Description>FA Nï¿½ 22/A</Description>
             <CreditAmount>474.12</CreditAmount>
           </CreditLine>
           <DebitLine>
@@ -1220,7 +1220,7 @@
             <AccountID>21113006</AccountID>
             <SourceDocumentID>FA A/22</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>FA Nº 22/A</Description>
+            <Description>FA Nï¿½ 22/A</Description>
             <DebitAmount>575.46</DebitAmount>
           </DebitLine>
           <CreditLine>
@@ -1228,7 +1228,7 @@
             <AccountID>24331113201</AccountID>
             <SourceDocumentID>FA A/22</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>FA Nº 22/A</Description>
+            <Description>FA Nï¿½ 22/A</Description>
             <CreditAmount>101.34</CreditAmount>
           </CreditLine>
         </Lines>
@@ -1242,7 +1242,7 @@
         <Period>1</Period>
         <TransactionDate>2018-01-04</TransactionDate>
         <SourceID>lucia.ribeiro</SourceID>
-        <Description>VD N.º1/A</Description>
+        <Description>VD N.ï¿½1/A</Description>
         <DocArchivalNumber>10001</DocArchivalNumber>
         <TransactionType>N</TransactionType>
         <GLPostingDate>2018-10-17</GLPostingDate>
@@ -1253,7 +1253,7 @@
             <AccountID>112</AccountID>
             <SourceDocumentID>VD A/1</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>VD Nº 1/A</Description>
+            <Description>VD Nï¿½ 1/A</Description>
             <DebitAmount>371.28</DebitAmount>
           </DebitLine>
           <CreditLine>
@@ -1261,7 +1261,7 @@
             <AccountID>7111</AccountID>
             <SourceDocumentID>VD A/1</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>VD Nº 1/A</Description>
+            <Description>VD Nï¿½ 1/A</Description>
             <CreditAmount>306.84</CreditAmount>
           </CreditLine>
           <CreditLine>
@@ -1269,7 +1269,7 @@
             <AccountID>24331113211</AccountID>
             <SourceDocumentID>VD A/1</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>VD Nº 1/A</Description>
+            <Description>VD Nï¿½ 1/A</Description>
             <CreditAmount>64.44</CreditAmount>
           </CreditLine>
         </Lines>
@@ -1349,13 +1349,13 @@
     </Journal>
     <Journal>
       <JournalID>00092</JournalID>
-      <Description>Ordens de Produção</Description>
+      <Description>Ordens de Produï¿½ï¿½o</Description>
       <Transaction>
         <TransactionID>2018-01-22 00092 10004</TransactionID>
         <Period>1</Period>
         <TransactionDate>2018-01-22</TransactionDate>
         <SourceID>lucia.ribeiro</SourceID>
-        <Description>SOF N.º1/A</Description>
+        <Description>SOF N.ï¿½1/A</Description>
         <DocArchivalNumber>10004</DocArchivalNumber>
         <TransactionType>N</TransactionType>
         <GLPostingDate>2018-10-17</GLPostingDate>
@@ -1365,7 +1365,7 @@
             <AccountID>3612</AccountID>
             <SourceDocumentID>SOF A/1</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>SOF Nº 1/A</Description>
+            <Description>SOF Nï¿½ 1/A</Description>
             <CreditAmount>596.96</CreditAmount>
           </CreditLine>
           <DebitLine>
@@ -1373,7 +1373,7 @@
             <AccountID>61611</AccountID>
             <SourceDocumentID>SOF A/1</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>SOF Nº 1/A</Description>
+            <Description>SOF Nï¿½ 1/A</Description>
             <DebitAmount>596.96</DebitAmount>
           </DebitLine>
         </Lines>
@@ -1383,7 +1383,7 @@
         <Period>1</Period>
         <TransactionDate>2018-01-25</TransactionDate>
         <SourceID>lucia.ribeiro</SourceID>
-        <Description>SOF N.º2/A</Description>
+        <Description>SOF N.ï¿½2/A</Description>
         <DocArchivalNumber>10005</DocArchivalNumber>
         <TransactionType>N</TransactionType>
         <GLPostingDate>2018-10-17</GLPostingDate>
@@ -1393,7 +1393,7 @@
             <AccountID>3612</AccountID>
             <SourceDocumentID>SOF A/2</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>SOF Nº 2/A</Description>
+            <Description>SOF Nï¿½ 2/A</Description>
             <CreditAmount>431.68</CreditAmount>
           </CreditLine>
           <DebitLine>
@@ -1401,7 +1401,7 @@
             <AccountID>61611</AccountID>
             <SourceDocumentID>SOF A/2</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>SOF Nº 2/A</Description>
+            <Description>SOF Nï¿½ 2/A</Description>
             <DebitAmount>431.68</DebitAmount>
           </DebitLine>
         </Lines>
@@ -1411,7 +1411,7 @@
         <Period>2</Period>
         <TransactionDate>2018-02-12</TransactionDate>
         <SourceID>lucia.ribeiro</SourceID>
-        <Description>SOF N.º3/A</Description>
+        <Description>SOF N.ï¿½3/A</Description>
         <DocArchivalNumber>20001</DocArchivalNumber>
         <TransactionType>N</TransactionType>
         <GLPostingDate>2018-10-17</GLPostingDate>
@@ -1421,7 +1421,7 @@
             <AccountID>3612</AccountID>
             <SourceDocumentID>SOF A/3</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>SOF Nº 3/A</Description>
+            <Description>SOF Nï¿½ 3/A</Description>
             <CreditAmount>230.40</CreditAmount>
           </CreditLine>
           <DebitLine>
@@ -1429,7 +1429,7 @@
             <AccountID>61611</AccountID>
             <SourceDocumentID>SOF A/3</SourceDocumentID>
             <SystemEntryDate>2018-10-17T16:48:23</SystemEntryDate>
-            <Description>SOF Nº 3/A</Description>
+            <Description>SOF Nï¿½ 3/A</Description>
             <DebitAmount>230.40</DebitAmount>
           </DebitLine>
         </Lines>
@@ -1756,12 +1756,12 @@
         <Line>
           <LineNumber>2</LineNumber>
           <ProductCode>M0001</ProductCode>
-          <ProductDescription>Técnico de Assemblagem de Hardware</ProductDescription>
+          <ProductDescription>Tï¿½cnico de Assemblagem de Hardware</ProductDescription>
           <Quantity>8</Quantity>
           <UnitOfMeasure>HR</UnitOfMeasure>
           <UnitPrice>30.324</UnitPrice>
           <TaxPointDate>2018-01-30</TaxPointDate>
-          <Description>Técnico de Assemblagem de Hardware</Description>
+          <Description>Tï¿½cnico de Assemblagem de Hardware</Description>
           <CreditAmount>242.59</CreditAmount>
           <Tax>
             <TaxType>IVA</TaxType>
@@ -1950,12 +1950,12 @@
         <Line>
           <LineNumber>3</LineNumber>
           <ProductCode>F0003</ProductCode>
-          <ProductDescription>Serviços de Implementação</ProductDescription>
+          <ProductDescription>Serviï¿½os de Implementaï¿½ï¿½o</ProductDescription>
           <Quantity>1</Quantity>
           <UnitOfMeasure>UN</UnitOfMeasure>
           <UnitPrice>300</UnitPrice>
           <TaxPointDate>2018-02-24</TaxPointDate>
-          <Description>Serviços de Implementação</Description>
+          <Description>Serviï¿½os de Implementaï¿½ï¿½o</Description>
           <CreditAmount>300.00</CreditAmount>
           <Tax>
             <TaxType>IVA</TaxType>
@@ -2369,7 +2369,7 @@
           <UnitOfMeasure>UN</UnitOfMeasure>
           <UnitPrice>100</UnitPrice>
           <TaxPointDate>2018-01-29</TaxPointDate>
-          <Description>Outros Serviços</Description>
+          <Description>Outros Serviï¿½os</Description>
           <CreditAmount>100.00</CreditAmount>
           <Tax>
             <TaxType>IVA</TaxType>
@@ -2433,12 +2433,12 @@
         <Line>
           <LineNumber>1</LineNumber>
           <ProductCode>TAPETE</ProductCode>
-          <ProductDescription>Tapete de Rato 2.ª Geração</ProductDescription>
+          <ProductDescription>Tapete de Rato 2.ï¿½ Geraï¿½ï¿½o</ProductDescription>
           <Quantity>1</Quantity>
           <UnitOfMeasure>UN</UnitOfMeasure>
           <UnitPrice>0.5</UnitPrice>
           <TaxPointDate>2018-01-30</TaxPointDate>
-          <Description>Tapete de Rato 2.ª Geração</Description>
+          <Description>Tapete de Rato 2.ï¿½ Geraï¿½ï¿½o</Description>
           <CreditAmount>0.50</CreditAmount>
           <Tax>
             <TaxType>IVA</TaxType>
