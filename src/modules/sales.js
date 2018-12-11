@@ -39,6 +39,35 @@ module.exports = (server, db) => {
             }));
 
         res.json(products);
+    }); 
+
+    server.get('/sales/sales-by-region', (req, res) => {
+
+        let countries = {};
+
+        db.SalesInvoices.forEach((invoice) => {
+            const type = invoice.InvoiceType;
+            if (!(invoice.Line.length && (type == 'FT' || type == 'FS' || type == 'FR' || type == 'VD')))
+                return;
+
+            const country = invoice.ShipTo.Address.Country;
+
+            if(countries.hasOwnProperty(country))
+                countries[country].quantity = countries[country].quantity + 1;
+            else
+                countries[country] = {
+                    quantity: 1
+                };
+        });
+
+        countries = Object.keys(countries)
+        //.sort((a, b) => countries[b].quantity - countries[a].quantity)
+        .map(elem => ({
+            country: elem,
+            quantity: countries[elem].quantity
+        }));
+
+        res.json(countries);
     });
 
     server.get('/sales/total-tax', (req, res) => {
