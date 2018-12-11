@@ -63,8 +63,8 @@ module.exports = (server, db) => {
         countries = Object.keys(countries)
         //.sort((a, b) => countries[b].quantity - countries[a].quantity)
         .map(elem => ({
-            country: elem,
-            quantity: countries[elem].quantity
+            id: elem,
+            value: countries[elem].quantity
         }));
 
         res.json(countries);
