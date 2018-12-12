@@ -13,8 +13,9 @@ module.exports = (server, db) => {
     });
 
     // Sum of credit/debit lines of a single transaction
-    function processTransaction(transaction) {
+    function processTransaction(transaction, account_filter) {
         function processLine(line, type) {
+            if (line.AccountID.indexOf(account_filter) != 0) return 0;
             return type == 'credit' ? Number.parseInt(line.CreditAmount) : Number.parseInt(line.DebitAmount);
         }
 
@@ -36,7 +37,6 @@ module.exports = (server, db) => {
             totalDebit += processLine(transaction.Lines.DebitLine, 'debit');
         }
 
-        console.log('' + transaction.TransactionID + ' :: ' + totalCredit + ' :: ' + totalDebit);
         return {
             totalCredit: totalCredit,
             totalDebit: totalDebit
@@ -48,29 +48,26 @@ module.exports = (server, db) => {
         let startDate = 'start-date' in req.query ? new Date(req.query['start-date']) : null;
         let endDate = 'end-date' in req.query ? new Date(req.query['end-date']) : null;
 
-        // TODO use req.params.account_id
+        let account_id_filter = req.params.account_id;
         let totalCredit = 0;
         let totalDebit = 0;
         db.GeneralLedgerEntries.Journal.forEach(journal => {
             let transactionDate = new Date(journal.TransactionDate);
-            if (true
-                && (startDate == null || startDate <= transactionDate)
-                && (endDate == null || transactionDate <= endDate)) {
+            if ((startDate == null || startDate <= transactionDate) && (endDate == null || transactionDate <= endDate)) {
                 if (Array.isArray(journal.Transaction)) {
                     for (let i = 0; i < journal.Transaction.length; i++) {
-                        let ret = processTransaction(journal.Transaction[i]);
+                        let ret = processTransaction(journal.Transaction[i], account_id_filter);
                         totalCredit += ret.totalCredit;
                         totalDebit += ret.totalDebit;
                     }
                 } else if (journal.Transaction) {
-                    let ret = processTransaction(journal.Transaction);
+                    let ret = processTransaction(journal.Transaction, account_id_filter);
                     totalCredit += ret.totalCredit;
                     totalDebit += ret.totalDebit;
                 }
             }
         });
         
-        console.log("CREDIT: " + totalCredit + " :: DEBIT: " + totalDebit);
         res.json({
             totalCredit: totalCredit,
             totalDebit: totalDebit
