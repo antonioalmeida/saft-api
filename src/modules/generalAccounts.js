@@ -13,10 +13,15 @@ module.exports = (server, db) => {
     });
 
     // Sum of credit/debit lines of a single transaction
-    function processTransaction(transaction, account_filter) {
+    function processTransaction(transaction, account_filter, startDate, endDate) {
         function processLine(line, type) {
             if (line.AccountID.indexOf(account_filter) != 0) return 0;
             return type == 'credit' ? Number.parseInt(line.CreditAmount) : Number.parseInt(line.DebitAmount);
+        }
+
+        let transactionDate = new Date(transaction.TransactionDate);
+        if ((startDate != null && transactionDate < startDate) || (endDate != null && transactionDate > endDate)) {
+            return {totalCredit: 0, totalDebit: 0};
         }
 
         let totalCredit = 0
@@ -52,19 +57,16 @@ module.exports = (server, db) => {
         let totalCredit = 0;
         let totalDebit = 0;
         db.GeneralLedgerEntries.Journal.forEach(journal => {
-            let transactionDate = new Date(journal.TransactionDate);
-            if ((startDate == null || startDate <= transactionDate) && (endDate == null || transactionDate <= endDate)) {
-                if (Array.isArray(journal.Transaction)) {
-                    for (let i = 0; i < journal.Transaction.length; i++) {
-                        let ret = processTransaction(journal.Transaction[i], account_id_filter);
-                        totalCredit += ret.totalCredit;
-                        totalDebit += ret.totalDebit;
-                    }
-                } else if (journal.Transaction) {
-                    let ret = processTransaction(journal.Transaction, account_id_filter);
+            if (Array.isArray(journal.Transaction)) {
+                for (let i = 0; i < journal.Transaction.length; i++) {
+                    let ret = processTransaction(journal.Transaction[i], account_id_filter, startDate, endDate);
                     totalCredit += ret.totalCredit;
                     totalDebit += ret.totalDebit;
                 }
+            } else if (journal.Transaction) {
+                let ret = processTransaction(journal.Transaction, account_id_filter, startDate, endDate);
+                totalCredit += ret.totalCredit;
+                totalDebit += ret.totalDebit;
             }
         });
         
