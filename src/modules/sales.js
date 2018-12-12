@@ -39,7 +39,7 @@ module.exports = (server, db) => {
             }));
 
         res.json(products);
-    }); 
+    });
 
     server.get('/sales/sales-by-region', (req, res) => {
 
@@ -52,7 +52,7 @@ module.exports = (server, db) => {
 
             const country = invoice.ShipTo.Address.Country;
 
-            if(countries.hasOwnProperty(country))
+            if (countries.hasOwnProperty(country))
                 countries[country].quantity = countries[country].quantity + 1;
             else
                 countries[country] = {
@@ -61,11 +61,11 @@ module.exports = (server, db) => {
         });
 
         countries = Object.keys(countries)
-        //.sort((a, b) => countries[b].quantity - countries[a].quantity)
-        .map(elem => ({
-            id: elem,
-            value: countries[elem].quantity
-        }));
+            //.sort((a, b) => countries[b].quantity - countries[a].quantity)
+            .map(elem => ({
+                id: elem,
+                value: countries[elem].quantity
+            }));
 
         res.json(countries);
     });
@@ -216,5 +216,37 @@ module.exports = (server, db) => {
         });
 
         res.json(sales.sort((a, b) => b.NetTotal - a.NetTotal));
+    });
+
+    server.get('/sales/units-sold/:product', (req, res) => {
+        let startDate = 'start-date' in req.query ? new Date(req.query['start-date']) : null;
+        let endDate = 'end-date' in req.query ? new Date(req.query['end-date']) : null;
+
+        let code = req.params.product;
+        let units = 0;
+
+        db.SalesInvoices.forEach((invoice) => {
+
+            let invoiceDate = new Date(invoice.InvoiceDate);
+            if ((startDate == null || startDate <= invoiceDate) && (endDate == null || invoiceDate <= endDate)) {
+
+                const type = invoice.InvoiceType;
+                if (!(invoice.Line.length && (type == 'FT' || type == 'FS' || type == 'FR' || type == 'VD')))
+                    return;
+
+                // Document type must be 'Fatura', 'Fatura Simplificada', 'Fatura Recibo' or 'Venda a Dinheiro'
+                invoice.Line.forEach((line) => {
+                    const {
+                        ProductCode,
+                        Quantity
+                    } = line;
+
+                    if (ProductCode === code)
+                        units += parseInt(Quantity);
+                });
+            }
+        });
+
+        res.json(units);
     });
 };
