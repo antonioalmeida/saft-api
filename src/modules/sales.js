@@ -110,19 +110,23 @@ module.exports = (server, db) => {
 
             const country = invoice.ShipTo.Address.Country;
 
-            if (countries.hasOwnProperty(country))
-                countries[country].quantity = countries[country].quantity + 1;
-            else
+            if (countries.hasOwnProperty(country)) {
+                countries[country].quantity++;
+                countries[country].netTotal += parseInt(invoice.DocumentTotals.NetTotal);
+            } else {
                 countries[country] = {
-                    quantity: 1
+                    quantity: 1,
+                    netTotal: parseInt(invoice.DocumentTotals.NetTotal)
                 };
+            }
         });
 
         countries = Object.keys(countries)
         //.sort((a, b) => countries[b].quantity - countries[a].quantity)
             .map(elem => ({
                 id: elem,
-                value: countries[elem].quantity
+                value: countries[elem].quantity,
+                netTotal: countries[elem].netTotal
             }));
 
         res.json(countries);
