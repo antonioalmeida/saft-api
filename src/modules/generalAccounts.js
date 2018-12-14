@@ -85,18 +85,18 @@ module.exports = (server, db) => {
         let account_id_filter = req.params.account_id;
 
         res.json({
-            1 : accountSumBetweenDates(account_id_filter, "2016-01-01", "2016-01-31"),
-            2 : accountSumBetweenDates(account_id_filter, "2016-02-01", "2016-02-31"),
-            3 : accountSumBetweenDates(account_id_filter, "2016-03-01", "2016-03-31"),
-            4 : accountSumBetweenDates(account_id_filter, "2016-04-01", "2016-04-31"),
-            5 : accountSumBetweenDates(account_id_filter, "2016-05-01", "2016-05-31"),
-            6 : accountSumBetweenDates(account_id_filter, "2016-06-01", "2016-06-31"),
-            7 : accountSumBetweenDates(account_id_filter, "2016-07-01", "2016-07-31"),
-            8 : accountSumBetweenDates(account_id_filter, "2016-08-01", "2016-08-31"),
-            9 : accountSumBetweenDates(account_id_filter, "2016-09-01", "2016-09-31"),
-            10 : accountSumBetweenDates(account_id_filter, "2016-10-01", "2016-10-31"),
-            11 : accountSumBetweenDates(account_id_filter, "2016-11-01", "2016-11-31"),
-            12 : accountSumBetweenDates(account_id_filter, "2016-12-01", "2016-12-31")
+            1 : accountSumBetweenDates(account_id_filter, db.Header.FiscalYear + "-01-01", db.Header.FiscalYear + "-01-31"),
+            2 : accountSumBetweenDates(account_id_filter, db.Header.FiscalYear + "-02-01", db.Header.FiscalYear + "-02-31"),
+            3 : accountSumBetweenDates(account_id_filter, db.Header.FiscalYear + "-03-01", db.Header.FiscalYear + "-03-31"),
+            4 : accountSumBetweenDates(account_id_filter, db.Header.FiscalYear + "-04-01", db.Header.FiscalYear + "-04-31"),
+            5 : accountSumBetweenDates(account_id_filter, db.Header.FiscalYear + "-05-01", db.Header.FiscalYear + "-05-31"),
+            6 : accountSumBetweenDates(account_id_filter, db.Header.FiscalYear + "-06-01", db.Header.FiscalYear + "-06-31"),
+            7 : accountSumBetweenDates(account_id_filter, db.Header.FiscalYear + "-07-01", db.Header.FiscalYear + "-07-31"),
+            8 : accountSumBetweenDates(account_id_filter, db.Header.FiscalYear + "-08-01", db.Header.FiscalYear + "-08-31"),
+            9 : accountSumBetweenDates(account_id_filter, db.Header.FiscalYear + "-09-01", db.Header.FiscalYear + "-09-31"),
+            10 : accountSumBetweenDates(account_id_filter, db.Header.FiscalYear + "-10-01", db.Header.FiscalYear + "-10-31"),
+            11 : accountSumBetweenDates(account_id_filter, db.Header.FiscalYear + "-11-01", db.Header.FiscalYear + "-11-31"),
+            12 : accountSumBetweenDates(account_id_filter, db.Header.FiscalYear + "-12-01", db.Header.FiscalYear + "-12-31")
         });
     });
 
