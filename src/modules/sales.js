@@ -65,10 +65,10 @@ module.exports = (server, db) => {
                         Quantity
                     } = line;
 
-                    purchased += UnitPrice*Quantity;
+                    purchased += UnitPrice * Quantity;
                 })
 
-                if(clients.hasOwnProperty(customer)) {
+                if (clients.hasOwnProperty(customer)) {
                     clients[customer].totalPurchased += purchased;
                     clients[customer].nPurchases++;
                 }
@@ -82,7 +82,7 @@ module.exports = (server, db) => {
 
         })
 
-        
+
         clients = Object.keys(clients)
             .sort((a, b) => clients[b].totalPurchased - clients[a].totalPurchased).map(elem => ({
                 client: elem,
@@ -113,7 +113,7 @@ module.exports = (server, db) => {
         });
 
         countries = Object.keys(countries)
-            //.sort((a, b) => countries[b].quantity - countries[a].quantity)
+        //.sort((a, b) => countries[b].quantity - countries[a].quantity)
             .map(elem => ({
                 id: elem,
                 value: countries[elem].quantity

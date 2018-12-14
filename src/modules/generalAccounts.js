@@ -64,7 +64,7 @@ module.exports = (server, db) => {
                 totalDebit += ret.totalDebit;
             }
         });
-        
+
         return ({
             totalCredit: totalCredit,
             totalDebit: totalDebit
@@ -83,21 +83,15 @@ module.exports = (server, db) => {
     // Sum of all General Entries on the given account by Month
     server.get('/AccountSumByMonth/:account_id', (req, res) => {
         let account_id_filter = req.params.account_id;
+        let accountSumByMonth = {};
 
-        res.json({
-            1 : accountSumBetweenDates(account_id_filter, "2016-01-01", "2016-01-31"),
-            2 : accountSumBetweenDates(account_id_filter, "2016-02-01", "2016-02-31"),
-            3 : accountSumBetweenDates(account_id_filter, "2016-03-01", "2016-03-31"),
-            4 : accountSumBetweenDates(account_id_filter, "2016-04-01", "2016-04-31"),
-            5 : accountSumBetweenDates(account_id_filter, "2016-05-01", "2016-05-31"),
-            6 : accountSumBetweenDates(account_id_filter, "2016-06-01", "2016-06-31"),
-            7 : accountSumBetweenDates(account_id_filter, "2016-07-01", "2016-07-31"),
-            8 : accountSumBetweenDates(account_id_filter, "2016-08-01", "2016-08-31"),
-            9 : accountSumBetweenDates(account_id_filter, "2016-09-01", "2016-09-31"),
-            10 : accountSumBetweenDates(account_id_filter, "2016-10-01", "2016-10-31"),
-            11 : accountSumBetweenDates(account_id_filter, "2016-11-01", "2016-11-31"),
-            12 : accountSumBetweenDates(account_id_filter, "2016-12-01", "2016-12-31")
-        });
+        for (let i = 1; i <= 12; i++) {
+            let date = db.Header.FiscalYear + '-' + i;
+            accountSumByMonth[i] = accountSumBetweenDates(account_id_filter, new Date(date + "-01"), new Date(date + "-31"));
+        }
+
+        res.json(accountSumByMonth);
+
     });
 
 };
