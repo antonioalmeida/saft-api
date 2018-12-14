@@ -42,6 +42,8 @@ module.exports = (server, db) => {
     });
 
     server.get('/sales/top-clients', (req, res) => {
+        let startDate = 'start-date' in req.query ? new Date(req.query['start-date']) : null;
+        let endDate = 'end-date' in req.query ? new Date(req.query['end-date']) : null;
 
         let clients = {};
 
@@ -50,45 +52,45 @@ module.exports = (server, db) => {
             if (!(invoice.Line.length && (type == 'FT' || type == 'FS' || type == 'FR' || type == 'VD')))
                 return;
 
-            const customer = invoice.CustomerID;
+            let invoiceDate = new Date(invoice.InvoiceDate);
+            if ((startDate == null || startDate <= invoiceDate) && (endDate == null || invoiceDate <= endDate)) {
 
-            let purchased = 0;
+                const customer = invoice.CustomerID;
 
-            invoice.Line.forEach((line) => {
-                const {
-                    UnitPrice,
-                    Quantity
-                } = line;
+                let purchased = 0;
 
-                purchased += UnitPrice*Quantity;
-            })
+                invoice.Line.forEach((line) => {
+                    const {
+                        UnitPrice,
+                        Quantity
+                    } = line;
 
-            if(clients.hasOwnProperty(customer)) {
-                clients[customer].totalPurchased += purchased;
-                clients[customer].nPurchases++;
-            }
-            else {
-                clients[customer] = {
-                    totalPurchased: purchased,
-                    nPurchases: 1
+                    purchased += UnitPrice*Quantity;
+                })
+
+                if(clients.hasOwnProperty(customer)) {
+                    clients[customer].totalPurchased += purchased;
+                    clients[customer].nPurchases++;
+                }
+                else {
+                    clients[customer] = {
+                        totalPurchased: purchased,
+                        nPurchases: 1
+                    }
                 }
             }
 
         })
 
-        res.json(clients);
-        /*
-                products = Object.keys(products)
-            .sort((a, b) => products[b].Quantity - products[a].Quantity).map(elem => ({
-                ProductCode: elem,
-                ProductDescription: products[elem].ProductDescription,
-                UnitPrice: products[elem].UnitPrice,
-                Quantity: products[elem].Quantity
+        
+        clients = Object.keys(clients)
+            .sort((a, b) => clients[b].totalPurchased - clients[a].totalPurchased).map(elem => ({
+                client: elem,
+                totalPurchased: clients[elem].totalPurchased,
+                nPurchases: clients[elem].nPurchases
             }));
 
-        res.json(products);
-        */
-
+        res.json(clients);
     })
 
     server.get('/sales/sales-by-region', (req, res) => {
