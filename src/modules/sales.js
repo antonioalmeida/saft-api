@@ -1,33 +1,39 @@
 module.exports = (server, db) => {
 
     server.get('/sales/top-selling-products', (req, res) => {
+        let startDate = 'start-date' in req.query ? new Date(req.query['start-date']) : null;
+        let endDate = 'end-date' in req.query ? new Date(req.query['end-date']) : null;
 
         let products = {};
 
         db.SalesInvoices.forEach((invoice) => {
             const type = invoice.InvoiceType;
+            // Document type must be 'Fatura', 'Fatura Simplificada', 'Fatura Recibo' or 'Venda a Dinheiro'
             if (!(invoice.Line.length && (type == 'FT' || type == 'FS' || type == 'FR' || type == 'VD')))
                 return;
 
-            // Document type must be 'Fatura', 'Fatura Simplificada', 'Fatura Recibo' or 'Venda a Dinheiro'
-            invoice.Line.forEach((line) => {
-                const {
-                    ProductCode,
-                    UnitPrice,
-                    ProductDescription,
-                    Quantity
-                } = line;
+            let invoiceDate = new Date(invoice.InvoiceDate);
+            if ((startDate == null || startDate <= invoiceDate) && (endDate == null || invoiceDate <= endDate)) {
 
-                if (products.hasOwnProperty(ProductCode)) {
-                    products[ProductCode].Quantity += parseInt(Quantity);
-                } else {
-                    products[ProductCode] = {
+                invoice.Line.forEach((line) => {
+                    const {
+                        ProductCode,
+                        UnitPrice,
                         ProductDescription,
-                        UnitPrice: parseFloat(UnitPrice),
-                        Quantity: parseInt(Quantity)
-                    };
-                }
-            });
+                        Quantity
+                    } = line;
+
+                    if (products.hasOwnProperty(ProductCode)) {
+                        products[ProductCode].Quantity += parseInt(Quantity);
+                    } else {
+                        products[ProductCode] = {
+                            ProductDescription,
+                            UnitPrice: parseFloat(UnitPrice),
+                            Quantity: parseInt(Quantity)
+                        };
+                    }
+                });
+            }
         });
 
         products = Object.keys(products)
