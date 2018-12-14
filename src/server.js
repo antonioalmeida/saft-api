@@ -10,6 +10,7 @@ const db = router.db.__wrapped__;
 
 const salesController = require('./modules/sales');
 const generalAccountsController = require('./modules/generalAccounts');
+const headerController = require('./modules/header')
 
 server.use(cors());
 
@@ -21,6 +22,7 @@ server.get('/echo', (req, res) => {
 
 generalAccountsController(server, db);
 salesController(server, db);
+headerController(server, db);
 
 server.use(middlewares)
 server.use(router)
