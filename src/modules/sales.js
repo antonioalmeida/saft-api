@@ -41,6 +41,56 @@ module.exports = (server, db) => {
         res.json(products);
     });
 
+    server.get('/sales/top-clients', (req, res) => {
+
+        let clients = {};
+
+        db.SalesInvoices.forEach((invoice) => {
+            const type = invoice.InvoiceType;
+            if (!(invoice.Line.length && (type == 'FT' || type == 'FS' || type == 'FR' || type == 'VD')))
+                return;
+
+            const customer = invoice.CustomerID;
+
+            let purchased = 0;
+
+            invoice.Line.forEach((line) => {
+                const {
+                    UnitPrice,
+                    Quantity
+                } = line;
+
+                purchased += UnitPrice*Quantity;
+            })
+
+            if(clients.hasOwnProperty(customer)) {
+                clients[customer].totalPurchased += purchased;
+                clients[customer].nPurchases++;
+            }
+            else {
+                clients[customer] = {
+                    totalPurchased: purchased,
+                    nPurchases: 1
+                }
+            }
+
+        })
+
+        res.json(clients);
+        /*
+                products = Object.keys(products)
+            .sort((a, b) => products[b].Quantity - products[a].Quantity).map(elem => ({
+                ProductCode: elem,
+                ProductDescription: products[elem].ProductDescription,
+                UnitPrice: products[elem].UnitPrice,
+                Quantity: products[elem].Quantity
+            }));
+
+        res.json(products);
+        */
+
+    })
+
     server.get('/sales/sales-by-region', (req, res) => {
 
         let countries = {};
