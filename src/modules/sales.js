@@ -216,6 +216,8 @@ module.exports = (server, db) => {
                 sales.push({
                     NetTotal: invoice.DocumentTotals.NetTotal,
                     GrossTotal: invoice.DocumentTotals.GrossTotal,
+                    Customer: invoice.CustomerID,
+                    Date: invoice.InvoiceDate,
                     Products: products
                 });
             }
