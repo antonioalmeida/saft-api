@@ -48,12 +48,7 @@ module.exports = (server, db) => {
         }
     }
 
-    // Sum of all General Entries on the given account, between startDate and endDate
-    server.get('/AccountSum/:account_id', (req, res) => {
-        let startDate = 'start-date' in req.query ? new Date(req.query['start-date']) : null;
-        let endDate = 'end-date' in req.query ? new Date(req.query['end-date']) : null;
-
-        let account_id_filter = req.params.account_id;
+    function accountSumBetweenDates(account_id_filter, startDate, endDate) {
         let totalCredit = 0;
         let totalDebit = 0;
         db.GeneralLedgerEntries.Journal.forEach(journal => {
@@ -69,11 +64,34 @@ module.exports = (server, db) => {
                 totalDebit += ret.totalDebit;
             }
         });
-        
-        res.json({
+
+        return ({
             totalCredit: totalCredit,
             totalDebit: totalDebit
         });
+    }
+
+    // Sum of all General Entries on the given account, between startDate and endDate
+    server.get('/AccountSum/:account_id', (req, res) => {
+        let startDate = 'start-date' in req.query ? new Date(req.query['start-date']) : null;
+        let endDate = 'end-date' in req.query ? new Date(req.query['end-date']) : null;
+        let account_id_filter = req.params.account_id;
+
+        res.json(accountSumBetweenDates(account_id_filter, startDate, endDate));
+    });
+
+    // Sum of all General Entries on the given account by Month
+    server.get('/AccountSumByMonth/:account_id', (req, res) => {
+        let account_id_filter = req.params.account_id;
+        let accountSumByMonth = {};
+
+        for (let i = 1; i <= 12; i++) {
+            let date = db.Header.FiscalYear + '-' + i;
+            accountSumByMonth[i] = accountSumBetweenDates(account_id_filter, new Date(date + "-01"), new Date(date + "-31"));
+        }
+
+        res.json(accountSumByMonth);
+
     });
 
 };

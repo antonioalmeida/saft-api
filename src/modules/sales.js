@@ -47,6 +47,58 @@ module.exports = (server, db) => {
         res.json(products);
     });
 
+    server.get('/sales/top-clients', (req, res) => {
+        let startDate = 'start-date' in req.query ? new Date(req.query['start-date']) : null;
+        let endDate = 'end-date' in req.query ? new Date(req.query['end-date']) : null;
+
+        let clients = {};
+
+        db.SalesInvoices.forEach((invoice) => {
+            const type = invoice.InvoiceType;
+            if (!(invoice.Line.length && (type == 'FT' || type == 'FS' || type == 'FR' || type == 'VD')))
+                return;
+
+            let invoiceDate = new Date(invoice.InvoiceDate);
+            if ((startDate == null || startDate <= invoiceDate) && (endDate == null || invoiceDate <= endDate)) {
+
+                const customer = invoice.CustomerID;
+
+                let purchased = 0;
+
+                invoice.Line.forEach((line) => {
+                    const {
+                        UnitPrice,
+                        Quantity
+                    } = line;
+
+                    purchased += UnitPrice * Quantity;
+                })
+
+                if (clients.hasOwnProperty(customer)) {
+                    clients[customer].totalPurchased += purchased;
+                    clients[customer].nPurchases++;
+                }
+                else {
+                    clients[customer] = {
+                        totalPurchased: purchased,
+                        nPurchases: 1
+                    }
+                }
+            }
+
+        })
+
+
+        clients = Object.keys(clients)
+            .sort((a, b) => clients[b].totalPurchased - clients[a].totalPurchased).map(elem => ({
+                client: elem,
+                totalPurchased: clients[elem].totalPurchased,
+                nPurchases: clients[elem].nPurchases
+            }));
+
+        res.json(clients);
+    })
+
     server.get('/sales/sales-by-region', (req, res) => {
 
         let countries = {};
@@ -58,19 +110,23 @@ module.exports = (server, db) => {
 
             const country = invoice.ShipTo.Address.Country;
 
-            if (countries.hasOwnProperty(country))
-                countries[country].quantity = countries[country].quantity + 1;
-            else
+            if (countries.hasOwnProperty(country)) {
+                countries[country].quantity++;
+                countries[country].netTotal += parseInt(invoice.DocumentTotals.NetTotal);
+            } else {
                 countries[country] = {
-                    quantity: 1
+                    quantity: 1,
+                    netTotal: parseInt(invoice.DocumentTotals.NetTotal)
                 };
+            }
         });
 
         countries = Object.keys(countries)
-            //.sort((a, b) => countries[b].quantity - countries[a].quantity)
+        //.sort((a, b) => countries[b].quantity - countries[a].quantity)
             .map(elem => ({
                 id: elem,
-                value: countries[elem].quantity
+                value: countries[elem].quantity,
+                netTotal: countries[elem].netTotal
             }));
 
         res.json(countries);
@@ -256,5 +312,27 @@ module.exports = (server, db) => {
         });
 
         res.json(units);
+    });
+
+    server.get('/sales/allSalesInvoicesValid', (req, res) => {
+        let startDate = 'start-date' in req.query ? new Date(req.query['start-date']) : null;
+        let endDate = 'end-date' in req.query ? new Date(req.query['end-date']) : null;
+
+        let allInvoices = [];
+        db.SalesInvoices.forEach((invoice) => {
+
+            let invoiceDate = new Date(invoice.InvoiceDate);
+            if ((startDate == null || startDate <= invoiceDate) && (endDate == null || invoiceDate <= endDate)) {
+
+                const type = invoice.InvoiceType;
+                if (!(invoice.Line.length && (type == 'FT' || type == 'FS' || type == 'FR' || type == 'VD')))
+                    return;
+
+                // Document type must be 'Fatura', 'Fatura Simplificada', 'Fatura Recibo' or 'Venda a Dinheiro'
+                allInvoices.push(invoice);
+            }
+        });
+
+        res.json(allInvoices);
     });
 };
