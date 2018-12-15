@@ -311,4 +311,26 @@ module.exports = (server, db) => {
 
         res.json(units);
     });
+
+    server.get('/sales/allSalesInvoicesValid', (req, res) => {
+        let startDate = 'start-date' in req.query ? new Date(req.query['start-date']) : null;
+        let endDate = 'end-date' in req.query ? new Date(req.query['end-date']) : null;
+
+        let allInvoices = [];
+        db.SalesInvoices.forEach((invoice) => {
+
+            let invoiceDate = new Date(invoice.InvoiceDate);
+            if ((startDate == null || startDate <= invoiceDate) && (endDate == null || invoiceDate <= endDate)) {
+
+                const type = invoice.InvoiceType;
+                if (!(invoice.Line.length && (type == 'FT' || type == 'FS' || type == 'FR' || type == 'VD')))
+                    return;
+
+                // Document type must be 'Fatura', 'Fatura Simplificada', 'Fatura Recibo' or 'Venda a Dinheiro'
+                allInvoices.push(invoice);
+            }
+        });
+
+        res.json(allInvoices);
+    });
 };
