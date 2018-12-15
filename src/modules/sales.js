@@ -100,6 +100,8 @@ module.exports = (server, db) => {
     })
 
     server.get('/sales/sales-by-region', (req, res) => {
+        let startDate = 'start-date' in req.query ? new Date(req.query['start-date']) : null;
+        let endDate = 'end-date' in req.query ? new Date(req.query['end-date']) : null;
 
         let countries = {};
 
@@ -108,6 +110,10 @@ module.exports = (server, db) => {
             if (!(invoice.Line.length && (type == 'FT' || type == 'FS' || type == 'FR' || type == 'VD')))
                 return;
 
+            let invoiceDate = new Date(invoice.InvoiceDate);
+            if ((startDate != null && invoiceDate < startDate) || (endDate != null && invoiceDate > endDate))
+                return;
+    
             const country = invoice.ShipTo.Address.Country;
 
             if (countries.hasOwnProperty(country)) {
