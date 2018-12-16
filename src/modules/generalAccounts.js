@@ -369,7 +369,12 @@ module.exports = (server, db) => {
                 }, 0);
         }
 
-        res.json(balanceSheet);
+        res.json(Object.keys(balanceSheet).map(function (key) {
+            return {
+                type: key,
+                values: balanceSheet[key]
+            };
+        }));
 
     });
 };
