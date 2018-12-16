@@ -120,7 +120,7 @@ module.exports = (server, db) => {
                 },
                 'Total do ativo': 0,
             },
-            'equityAndLiabilities': {
+
                 'equity': {
                     'Capital próprio': {
                         'Capital Realizado': 0, //51-261-262 ✓
@@ -155,7 +155,7 @@ module.exports = (server, db) => {
                     'Total do Passivo': 0,
                 },
                 'Total do Capital Próprio e do Passivo': 0
-            }
+            
         };
 
         db.GeneralLedgerAccounts.Account.forEach(account => {
@@ -173,7 +173,7 @@ module.exports = (server, db) => {
                         if (saldoConta >= 0)
                             balanceSheet.assets["Ativo corrente"]["Outros ativos financeiros"] += saldoConta;
                         else
-                            balanceSheet.equityAndLiabilities.liabilities["Passivo corrente"]["Outros passivos financeiros"] += saldoConta;
+                            balanceSheet.liabilities["Passivo corrente"]["Outros passivos financeiros"] += saldoConta;
                     }
                     break;
                 case '211':
@@ -182,7 +182,7 @@ module.exports = (server, db) => {
                     break;
                 case '218':
                 case '276':
-                    balanceSheet.equityAndLiabilities.liabilities["Passivo corrente"]["Adiantamentos de clientes"] += saldoConta;
+                    balanceSheet.liabilities["Passivo corrente"]["Adiantamentos de clientes"] += saldoConta;
                     break;
                 case '219':
                     balanceSheet.assets["Ativo corrente"].Clientes -= saldoConta;
@@ -190,7 +190,7 @@ module.exports = (server, db) => {
                 case '221':
                 case '222':
                 case '225':
-                    balanceSheet.equityAndLiabilities.liabilities["Passivo corrente"].Fornecedores += saldoConta;
+                    balanceSheet.liabilities["Passivo corrente"].Fornecedores += saldoConta;
                     break;
                 case '228':
                 case '2713':
@@ -206,7 +206,7 @@ module.exports = (server, db) => {
                 case '231':
                 case '238':
                 case '2722':
-                    balanceSheet.equityAndLiabilities.liabilities["Passivo corrente"]["Outras contas a pagar"] += saldoConta;
+                    balanceSheet.liabilities["Passivo corrente"]["Outras contas a pagar"] += saldoConta;
                     break;
                 case '232':
                 case '238':
@@ -215,7 +215,7 @@ module.exports = (server, db) => {
                     break;
                 case '237':
                 case '275':
-                    balanceSheet.equityAndLiabilities.liabilities["Passivo não corrente"]["Outras contas a pagar"] += saldoConta;
+                    balanceSheet.liabilities["Passivo não corrente"]["Outras contas a pagar"] += saldoConta;
                     break;
                 case '239':
                     balanceSheet.assets["Ativo corrente"]["Outras Contas a Receber"] -= saldoConta;
@@ -225,32 +225,32 @@ module.exports = (server, db) => {
                         if (saldoConta >= 0)
                             balanceSheet.assets["Ativo corrente"]["Estado e outros entes públicos"] += saldoConta;
                         else
-                            balanceSheet.equityAndLiabilities.liabilities["Passivo corrente"]["Estado e outros entes públicos"] += saldoConta;
+                            balanceSheet.liabilities["Passivo corrente"]["Estado e outros entes públicos"] += saldoConta;
                     }
                     break;
                 case '25':
                     {
-                        balanceSheet.equityAndLiabilities.liabilities["Passivo não corrente"]["Financiamentos obtidos"] += saldoConta;
-                        balanceSheet.equityAndLiabilities.liabilities["Passivo corrente"]["Financiamentos obtidos"] += saldoConta;
+                        balanceSheet.liabilities["Passivo não corrente"]["Financiamentos obtidos"] += saldoConta;
+                        balanceSheet.liabilities["Passivo corrente"]["Financiamentos obtidos"] += saldoConta;
                     }
                     break;
                 case '261':
                 case '262':
-                    balanceSheet.equityAndLiabilities.equity["Capital próprio"]["Capital Realizado"] -= saldoConta;
+                    balanceSheet.equity["Capital próprio"]["Capital Realizado"] -= saldoConta;
                     break;
                 case '263':
                     balanceSheet.assets["Ativo corrente"]["Accioninistas/Sócios"] += saldoConta;
                     break;
                 case '264':
                 case '265':
-                    balanceSheet.equityAndLiabilities.liabilities["Passivo corrente"]["Accionistas/Sócios"] += saldoConta;
+                    balanceSheet.liabilities["Passivo corrente"]["Accionistas/Sócios"] += saldoConta;
                 case '266':
                 case '268':
                     {
                         if (saldoConta > 0)
                             balanceSheet.assets["Ativo corrente"]["Accioninistas/Sócios"] += saldoConta;
                         else
-                            balanceSheet.equityAndLiabilities.liabilities["Passivo corrente"]["Accionistas/Sócios"] += saldoConta;
+                            balanceSheet.liabilities["Passivo corrente"]["Accionistas/Sócios"] += saldoConta;
                     }
                     break;
                 case '269':
@@ -262,8 +262,8 @@ module.exports = (server, db) => {
                 case '2711':
                 case '2712':
                     {
-                        balanceSheet.equityAndLiabilities.liabilities["Passivo não corrente"]["Outras contas a pagar"] += saldoConta;
-                        balanceSheet.equityAndLiabilities.liabilities["Passivo corrente"]["Outras contas a pagar"] += saldoConta;
+                        balanceSheet.liabilities["Passivo não corrente"]["Outras contas a pagar"] += saldoConta;
+                        balanceSheet.liabilities["Passivo corrente"]["Outras contas a pagar"] += saldoConta;
                     }
                     break;
                 case '278':
@@ -271,7 +271,7 @@ module.exports = (server, db) => {
                         if (saldoConta >= 0)
                             balanceSheet.assets["Ativo corrente"]["Outras Contas a Receber"] += saldoConta;
                         else
-                            balanceSheet.equityAndLiabilities.liabilities["Passivo corrente"]["Outras contas a pagar"] += saldoConta;
+                            balanceSheet.liabilities["Passivo corrente"]["Outras contas a pagar"] += saldoConta;
                     }
                     break;
                 case '281':
@@ -279,10 +279,10 @@ module.exports = (server, db) => {
                     break;
                 case '282':
                 case '283':
-                    balanceSheet.equityAndLiabilities.liabilities["Passivo corrente"].Diferimentos += saldoConta;
+                    balanceSheet.liabilities["Passivo corrente"].Diferimentos += saldoConta;
                     break;
                 case '29':
-                    balanceSheet.equityAndLiabilities.liabilities["Passivo não corrente"].Provisões += saldoConta;
+                    balanceSheet.liabilities["Passivo não corrente"].Provisões += saldoConta;
                     break;
                 case '32':
                 case '33':
@@ -319,34 +319,34 @@ module.exports = (server, db) => {
                     }
                     break;
                 case '51':
-                    balanceSheet.equityAndLiabilities.equity["Capital próprio"]["Capital Realizado"] += saldoConta;
+                    balanceSheet.equity["Capital próprio"]["Capital Realizado"] += saldoConta;
                     break;
                 case '52':
-                    balanceSheet.equityAndLiabilities.equity["Capital próprio"]["Acções (quotas) próprias"] += saldoConta;
+                    balanceSheet.equity["Capital próprio"]["Acções (quotas) próprias"] += saldoConta;
                     break;
                 case '53':
-                    balanceSheet.equityAndLiabilities.equity["Capital próprio"]["Outros instrumentos de capital próprio"] += saldoConta;
+                    balanceSheet.equity["Capital próprio"]["Outros instrumentos de capital próprio"] += saldoConta;
                     break;
                 case '54':
-                    balanceSheet.equityAndLiabilities.equity["Capital próprio"]["Prémios de emissão"] += saldoConta;
+                    balanceSheet.equity["Capital próprio"]["Prémios de emissão"] += saldoConta;
                     break;
                 case '551':
-                    balanceSheet.equityAndLiabilities.equity["Capital próprio"]["Reservas legais"] += saldoConta;
+                    balanceSheet.equity["Capital próprio"]["Reservas legais"] += saldoConta;
                     break;
                 case '552':
-                    balanceSheet.equityAndLiabilities.equity["Capital próprio"]["Outras reservas"] += saldoConta;
+                    balanceSheet.equity["Capital próprio"]["Outras reservas"] += saldoConta;
                     break;
                 case '56':
-                    balanceSheet.equityAndLiabilities.equity["Capital próprio"]["Resultados transitados"] += saldoConta;
+                    balanceSheet.equity["Capital próprio"]["Resultados transitados"] += saldoConta;
                     break;
                 case '58':
-                    balanceSheet.equityAndLiabilities.equity["Capital próprio"]["Excedentes de revalorização"] += saldoConta;
+                    balanceSheet.equity["Capital próprio"]["Excedentes de revalorização"] += saldoConta;
                     break;
                 case '59':
-                    balanceSheet.equityAndLiabilities.equity["Capital próprio"]["Outras variações no capital próprio"] += saldoConta;
+                    balanceSheet.equity["Capital próprio"]["Outras variações no capital próprio"] += saldoConta;
                     break;
                 case '818':
-                    balanceSheet.equityAndLiabilities.equity["Capital próprio"]["Resultado líquido do período"] += saldoConta;
+                    balanceSheet.equity["Capital próprio"]["Resultado líquido do período"] += saldoConta;
                     break;
                 default:
                     break;
@@ -357,10 +357,10 @@ module.exports = (server, db) => {
         //totals
         balanceSheet.assets["Total do ativo"] += getParcelSum(balanceSheet.assets["Ativo corrente"]);
         balanceSheet.assets["Total do ativo"] += getParcelSum(balanceSheet.assets["Ativo não corrente"]);
-        balanceSheet.equityAndLiabilities.liabilities["Total do Passivo"] += getParcelSum(balanceSheet.equityAndLiabilities.liabilities["Passivo corrente"]);
-        balanceSheet.equityAndLiabilities.liabilities["Total do Passivo"] += getParcelSum(balanceSheet.equityAndLiabilities.liabilities["Passivo não corrente"]);
-        balanceSheet.equityAndLiabilities.equity["Total do Capital Próprio"] = getParcelSum(balanceSheet.equityAndLiabilities.equity["Capital próprio"]);
-        balanceSheet.equityAndLiabilities["Total do Capital Próprio e do Passivo"] = balanceSheet.equityAndLiabilities.liabilities["Total do Passivo"] + balanceSheet.equityAndLiabilities.equity["Total do Capital Próprio"];
+        balanceSheet.liabilities["Total do Passivo"] += getParcelSum(balanceSheet.liabilities["Passivo corrente"]);
+        balanceSheet.liabilities["Total do Passivo"] += getParcelSum(balanceSheet.liabilities["Passivo não corrente"]);
+        balanceSheet.equity["Total do Capital Próprio"] = getParcelSum(balanceSheet.equity["Capital próprio"]);
+        balanceSheet["Total do Capital Próprio e do Passivo"] = balanceSheet.liabilities["Total do Passivo"] + balanceSheet.equity["Total do Capital Próprio"];
 
         function getParcelSum(vals) {
             return Object.keys(vals)
@@ -369,12 +369,36 @@ module.exports = (server, db) => {
                 }, 0);
         }
 
-        res.json(Object.keys(balanceSheet).map(function (key) {
+        let assets = Object.entries(balanceSheet.assets).map((elem, index) => {
             return {
-                type: key,
-                values: balanceSheet[key]
-            };
-        }));
+                name: elem[0],
+                values: elem[1] instanceof Object ? Object.entries(elem[1]) : elem[1]
+            }
+        })
 
+        let equity = Object.entries(balanceSheet.equity).map((elem, index) => {
+            return {
+                name: elem[0],
+                values: elem[1] instanceof Object ? Object.entries(elem[1]) : elem[1]
+            }
+        })
+
+        let liabilities = Object.entries(balanceSheet.liabilities).map((elem, index) => {
+            return {
+                name: elem[0],
+                values: elem[1] instanceof Object ? Object.entries(elem[1]) : elem[1]
+            }
+        })
+
+        res.json({
+            assets: assets,
+
+            equity: equity,
+
+            liabilities: liabilities,
+
+            totalEquityAndLiabilities: balanceSheet['Total do Capital Próprio e do Passivo']
+        });
     });
+
 };
