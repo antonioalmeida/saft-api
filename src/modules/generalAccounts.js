@@ -109,7 +109,7 @@ module.exports = (server, db) => {
                 },
                 'Ativo corrente': {
                     'Inventários': 0, //32+33+34+35+36+39 ✓
-                    'Clientes': 0, //211+212-219 ✓
+                    'Clientes': 0, //21 ✓
                     'Adiantamentos a fornecedores': 0, //228-229+2713-279 ✓
                     'Estado e outros entes públicos': 0, //24 ✓
                     'Accioninistas/Sócios': 0, //263+268-269 ✓
@@ -173,24 +173,20 @@ module.exports = (server, db) => {
                         if (saldoConta >= 0)
                             balanceSheet.assets["Ativo corrente"]["Outros ativos financeiros"] += saldoConta;
                         else
-                            balanceSheet.liabilities["Passivo corrente"]["Outros passivos financeiros"] += saldoConta;
+                            balanceSheet.liabilities["Passivo corrente"]["Outros passivos financeiros"] += Math.abs(saldoConta);
                     }
                     break;
-                case '211':
-                case '212':
+                case '21':
                     balanceSheet.assets["Ativo corrente"].Clientes += saldoConta;
                     break;
                 case '218':
                 case '276':
-                    balanceSheet.liabilities["Passivo corrente"]["Adiantamentos de clientes"] += saldoConta;
-                    break;
-                case '219':
-                    balanceSheet.assets["Ativo corrente"].Clientes -= saldoConta;
+                    balanceSheet.liabilities["Passivo corrente"]["Adiantamentos de clientes"] += Math.abs(saldoConta);
                     break;
                 case '221':
                 case '222':
                 case '225':
-                    balanceSheet.liabilities["Passivo corrente"].Fornecedores += saldoConta;
+                    balanceSheet.liabilities["Passivo corrente"].Fornecedores += Math.abs(saldoConta);
                     break;
                 case '228':
                 case '2713':
@@ -206,7 +202,7 @@ module.exports = (server, db) => {
                 case '231':
                 case '238':
                 case '2722':
-                    balanceSheet.liabilities["Passivo corrente"]["Outras contas a pagar"] += saldoConta;
+                    balanceSheet.liabilities["Passivo corrente"]["Outras contas a pagar"] += Math.abs(saldoConta);
                     break;
                 case '232':
                 case '238':
@@ -215,23 +211,23 @@ module.exports = (server, db) => {
                     break;
                 case '237':
                 case '275':
-                    balanceSheet.liabilities["Passivo não corrente"]["Outras contas a pagar"] += saldoConta;
+                    balanceSheet.liabilities["Passivo não corrente"]["Outras contas a pagar"] += Math.abs(saldoConta);
                     break;
                 case '239':
                     balanceSheet.assets["Ativo corrente"]["Outras Contas a Receber"] -= saldoConta;
                     break;
-                case '24':
-                    {
-                        if (saldoConta >= 0)
-                            balanceSheet.assets["Ativo corrente"]["Estado e outros entes públicos"] += saldoConta;
-                        else
-                            balanceSheet.liabilities["Passivo corrente"]["Estado e outros entes públicos"] += saldoConta;
-                    }
+                case '2432':
+                case '2437':
+                case '2438':
+                    balanceSheet.assets["Ativo corrente"]["Estado e outros entes públicos"] += saldoConta;
+                    break;
+                case '2433':
+                    balanceSheet.liabilities["Passivo corrente"]["Estado e outros entes públicos"] += Math.abs(saldoConta);
                     break;
                 case '25':
                     {
-                        balanceSheet.liabilities["Passivo não corrente"]["Financiamentos obtidos"] += saldoConta;
-                        balanceSheet.liabilities["Passivo corrente"]["Financiamentos obtidos"] += saldoConta;
+                        balanceSheet.liabilities["Passivo não corrente"]["Financiamentos obtidos"] += Math.abs(saldoConta);
+                        balanceSheet.liabilities["Passivo corrente"]["Financiamentos obtidos"] += Math.abs(saldoConta);
                     }
                     break;
                 case '261':
@@ -243,14 +239,14 @@ module.exports = (server, db) => {
                     break;
                 case '264':
                 case '265':
-                    balanceSheet.liabilities["Passivo corrente"]["Accionistas/Sócios"] += saldoConta;
+                    balanceSheet.liabilities["Passivo corrente"]["Accionistas/Sócios"] += Math.abs(saldoConta);
                 case '266':
                 case '268':
                     {
                         if (saldoConta > 0)
                             balanceSheet.assets["Ativo corrente"]["Accioninistas/Sócios"] += saldoConta;
                         else
-                            balanceSheet.liabilities["Passivo corrente"]["Accionistas/Sócios"] += saldoConta;
+                            balanceSheet.liabilities["Passivo corrente"]["Accionistas/Sócios"] += Math.abs(saldoConta);
                     }
                     break;
                 case '269':
@@ -262,8 +258,8 @@ module.exports = (server, db) => {
                 case '2711':
                 case '2712':
                     {
-                        balanceSheet.liabilities["Passivo não corrente"]["Outras contas a pagar"] += saldoConta;
-                        balanceSheet.liabilities["Passivo corrente"]["Outras contas a pagar"] += saldoConta;
+                        balanceSheet.liabilities["Passivo não corrente"]["Outras contas a pagar"] += Math.abs(saldoConta);
+                        balanceSheet.liabilities["Passivo corrente"]["Outras contas a pagar"] += Math.abs(saldoConta);
                     }
                     break;
                 case '278':
@@ -271,7 +267,7 @@ module.exports = (server, db) => {
                         if (saldoConta >= 0)
                             balanceSheet.assets["Ativo corrente"]["Outras Contas a Receber"] += saldoConta;
                         else
-                            balanceSheet.liabilities["Passivo corrente"]["Outras contas a pagar"] += saldoConta;
+                            balanceSheet.liabilities["Passivo corrente"]["Outras contas a pagar"] += Math.abs(saldoConta);
                     }
                     break;
                 case '281':
@@ -279,10 +275,10 @@ module.exports = (server, db) => {
                     break;
                 case '282':
                 case '283':
-                    balanceSheet.liabilities["Passivo corrente"].Diferimentos += saldoConta;
+                    balanceSheet.liabilities["Passivo corrente"].Diferimentos += Math.abs(saldoConta);
                     break;
                 case '29':
-                    balanceSheet.liabilities["Passivo não corrente"].Provisões += saldoConta;
+                    balanceSheet.liabilities["Passivo não corrente"].Provisões += Math.abs(saldoConta);
                     break;
                 case '32':
                 case '33':
