@@ -29,19 +29,19 @@ module.exports = (server, db) => {
 
         let totalCredit = 0
         let totalDebit = 0
-        if (Array.isArray(transaction.Lines.CreditLine)) {
+        if (transaction.Lines.CreditLine && Array.isArray(transaction.Lines.CreditLine)) {
             totalCredit += transaction.Lines.CreditLine.map(line => {
                 return processLine(line, 'credit');
             }).reduce((n1, n2) => n1 + n2);
-        } else {
+        } else if (transaction.Lines.CreditLine) {
             totalCredit += processLine(transaction.Lines.CreditLine, 'credit');
         }
-
-        if (Array.isArray(transaction.Lines.DebitLine)) {
+        
+        if (transaction.Lines.DebitLine && Array.isArray(transaction.Lines.DebitLine)) {
             totalDebit += transaction.Lines.DebitLine.map(line => {
                 return processLine(line, 'debit');
             }).reduce((n1, n2) => n1 + n2);
-        } else {
+        } else if (transaction.Lines.DebitLine) {
             totalDebit += processLine(transaction.Lines.DebitLine, 'debit');
         }
 
