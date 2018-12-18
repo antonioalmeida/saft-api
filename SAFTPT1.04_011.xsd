@@ -82,10 +82,10 @@
             <xs:selector xpath="ns:SourceDocuments/ns:SalesInvoices/ns:Invoice" />
             <xs:field xpath="ns:CustomerID" />
         </xs:keyref>
-        <xs:keyref name="InvoiceProductCodeConstraint" refer="ProductCodeConstraint">
+<!--         <xs:keyref name="InvoiceProductCodeConstraint" refer="ProductCodeConstraint">
             <xs:selector xpath="ns:SourceDocuments/ns:SalesInvoices/ns:Invoice/ns:Line" />
             <xs:field xpath="ns:ProductCode" />
-        </xs:keyref>
+        </xs:keyref> -->
         <xs:unique name="DocumentNumberConstraint">
             <xs:selector xpath="ns:SourceDocuments/ns:MovementOfGoods/ns:StockMovement" />
             <xs:field xpath="ns:DocumentNumber" />
@@ -110,10 +110,10 @@
             <xs:selector xpath="ns:SourceDocuments/ns:WorkingDocuments/ns:WorkDocument" />
             <xs:field xpath="ns:CustomerID" />
         </xs:keyref>
-        <xs:keyref name="WorkDocumentDocumentProductCodeConstraint" refer="ProductCodeConstraint">
+<!--         <xs:keyref name="WorkDocumentDocumentProductCodeConstraint" refer="ProductCodeConstraint">
             <xs:selector xpath="ns:SourceDocuments/ns:WorkingDocuments/ns:WorkDocument/ns:Line" />
             <xs:field xpath="ns:ProductCode" />
-        </xs:keyref>
+        </xs:keyref> -->
         <xs:unique name="PaymentPaymentRefNoConstraint">
             <xs:selector xpath="ns:SourceDocuments/ns:Payments/ns:Payment" />
             <xs:field xpath="ns:PaymentRefNo" />
@@ -159,7 +159,7 @@
             <xs:sequence>
                 <xs:element ref="TaxonomyReference" />
                 <xs:element name="Account" maxOccurs="unbounded">
-                    <xs:complexType>
+<!--                     <xs:complexType>
                         <xs:sequence>
                             <xs:element name="AccountID" type="SAFPTGLAccountID" />
                             <xs:element ref="AccountDescription" />
@@ -171,7 +171,7 @@
                             <xs:element name="GroupingCode" type="SAFPTGLAccountID" minOccurs="0" />
                             <xs:element name="TaxonomyCode" type="SAFTaxonomyCode" minOccurs="0" />
                         </xs:sequence>
-                    </xs:complexType>
+                    </xs:complexType> -->
                 </xs:element>
             </xs:sequence>
         </xs:complexType>
@@ -1338,12 +1338,12 @@
         </xs:restriction>
     </xs:simpleType>
     <!--Codigo de classificacao da conta-->
-    <xs:simpleType name="SAFTaxonomyCode">
+<!--     <xs:simpleType name="SAFTaxonomyCode">
         <xs:restriction base="xs:integer">
             <xs:minInclusive value="0" />
             <xs:maxInclusive value="999" />
         </xs:restriction>
-    </xs:simpleType>
+    </xs:simpleType> -->
     <!-- TIPOS DE DADOS BASE SAFT Portugal -->
     <!-- Codigo de de Imposto de pagamento-->
     <xs:simpleType name="PaymentTaxCode">
