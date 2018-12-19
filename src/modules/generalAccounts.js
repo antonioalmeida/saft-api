@@ -341,8 +341,14 @@ module.exports = (server, db) => {
                 case '59':
                     balanceSheet.equity["Capital próprio"]["Outras variações no capital próprio"] += saldoConta;
                     break;
-                case '818':
-                    balanceSheet.equity["Capital próprio"]["Resultado líquido do período"] += saldoConta;
+                case '71':
+                case '72':
+                    balanceSheet.equity["Capital próprio"]["Resultado líquido do período"] += Math.abs(saldoConta);
+                    break;
+                case '61':
+                case '62':
+                case '31':
+                    balanceSheet.equity["Capital próprio"]["Resultado líquido do período"] -= Math.abs(saldoConta);
                     break;
                 default:
                     break;
