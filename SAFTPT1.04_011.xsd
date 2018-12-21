@@ -50,14 +50,14 @@
             <xs:selector xpath="ns:MasterFiles/ns:Product" />
             <xs:field xpath="ns:ProductCode" />
         </xs:unique>
-        <xs:keyref name="GeneralLedgerEntriesDebitLineAccountIDConstraint" refer="AccountIDConstraint">
+<!--         <xs:keyref name="GeneralLedgerEntriesDebitLineAccountIDConstraint" refer="AccountIDConstraint">
             <xs:selector xpath="ns:GeneralLedgerEntries/ns:Journal/ns:Transaction/ns:Lines/ns:DebitLine" />
             <xs:field xpath="ns:AccountID" />
-        </xs:keyref>
-        <xs:keyref name="GeneralLedgerEntriesCreditLineAccountIDConstraint" refer="AccountIDConstraint">
+        </xs:keyref> -->
+<!--         <xs:keyref name="GeneralLedgerEntriesCreditLineAccountIDConstraint" refer="AccountIDConstraint">
             <xs:selector xpath="ns:GeneralLedgerEntries/ns:Journal/ns:Transaction/ns:Lines/ns:CreditLine" />
             <xs:field xpath="ns:AccountID" />
-        </xs:keyref>
+        </xs:keyref> -->
         <xs:keyref name="GeneralLedgerEntriesCustomerIDConstraint" refer="CustomerIDConstraint">
             <xs:selector xpath="ns:GeneralLedgerEntries/ns:Journal/ns:Transaction" />
             <xs:field xpath="ns:CustomerID" />
