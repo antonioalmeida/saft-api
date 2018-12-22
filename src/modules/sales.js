@@ -113,7 +113,7 @@ module.exports = (server, db) => {
             let invoiceDate = new Date(invoice.InvoiceDate);
             if ((startDate != null && invoiceDate < startDate) || (endDate != null && invoiceDate > endDate))
                 return;
-
+    
             const country = invoice.ShipTo.Address.Country;
 
             if (countries.hasOwnProperty(country)) {
@@ -128,7 +128,7 @@ module.exports = (server, db) => {
         });
 
         countries = Object.keys(countries)
-            //.sort((a, b) => countries[b].quantity - countries[a].quantity)
+        //.sort((a, b) => countries[b].quantity - countries[a].quantity)
             .map(elem => ({
                 id: elem,
                 value: countries[elem].quantity,
@@ -341,62 +341,4 @@ module.exports = (server, db) => {
 
         res.json(allInvoices);
     });
-
-    server.get('/sales/top-purchases/:customer', (req, res) => {
-        let startDate = 'start-date' in req.query ? new Date(req.query['start-date']) : null;
-        let endDate = 'end-date' in req.query ? new Date(req.query['end-date']) : null;
-
-        let customer_id = req.params.customer;
-        let products = [];
-
-        db.SalesInvoices.forEach((invoice) => {
-
-            let invoiceDate = new Date(invoice.InvoiceDate);
-            if ((startDate == null || startDate <= invoiceDate) && (endDate == null || invoiceDate <= endDate)) {
-
-                const type = invoice.InvoiceType;
-                if (!(invoice.Line.length && (type == 'FT' || type == 'FS' || type == 'FR' || type == 'VD')))
-                    return;
-
-                if (invoice.CustomerID !== customer_id)
-                    return;
-
-                // Document type must be 'Fatura', 'Fatura Simplificada', 'Fatura Recibo' or 'Venda a Dinheiro'
-                invoice.Line.forEach((line) => {
-                    const {
-                        ProductCode,
-                        ProductDescription,
-                        Quantity
-                    } = line;
-
-                    var found = false;
-                    for (let i = 0; i < products.length; i++) {
-                        if (products[i].ProductCode === ProductCode) {
-                            products[i].Quantity = parseInt(products[i].Quantity) + parseInt(Quantity);
-                            found = true;
-                            break;
-                        }
-                    }
-                    if (!found) {
-                        products.push({
-                            ProductCode,
-                            ProductDescription,
-                            Quantity
-                        });
-                    }
-
-                    products.sort(function (a, b) {
-                        return b.Quantity - a.Quantity;
-                    })
-
-                });
-            }
-        });
-
-        res.json({
-            customer_id: customer_id,
-            products: products
-        });
-    });
-
 };
