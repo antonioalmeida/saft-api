@@ -8,8 +8,8 @@ Start a REST API based on a SAF-T (Portuguese) XML file to easily query its data
 
 ### Using the tool
 
-```
-# Install dependencies
+```shell
+# install dependencies
 yarn
 
 # Build the src
